@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Study Notes — JE Civil Prep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/site.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="./index.html"><span class="brand-mark">JE</span> Civil Prep</a>
+      <nav class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./practice.html">Practice MCQs</a>
+        <a href="./mock.html">Full Mock</a>
+        <a href="./notes.html" class="active">Notes</a>
+        <a href="./downloads.html">PDFs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap section">
+    <h1 class="section-title">Study Notes</h1>
+    <p class="section-sub">Browse bilingual markdown notes in the browser</p>
+    <div class="notes-layout">
+      <aside class="panel notes-list" id="notes-list"><p class="muted">Loading…</p></aside>
+      <article class="panel">
+        <div class="markdown-body" id="notes-view"><p class="muted">Select a note from the left.</p></div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="wrap">JE Civil Prep · Notes</div></footer>
+  <script src="./assets/js/common.js"></script>
+  <script>
+    const list = document.getElementById("notes-list");
+    const view = document.getElementById("notes-view");
+
+    // Prefer useful order
+    const priority = [
+      "14_KRCL_Cheat_Sheet.md",
+      "12_KRCL_Weighted_Study_Plan.md",
+      "12B_90Min_Mock_Blueprint.md",
+      "11_Formula_Sheet.md",
+      "00_Overview_and_Study_Plan.md",
+    ];
+
+    function sortNotes(notes) {
+      return [...notes].sort((a, b) => {
+        const ia = priority.indexOf(a.file);
+        const ib = priority.indexOf(b.file);
+        if (ia !== -1 || ib !== -1) {
+          if (ia === -1) return 1;
+          if (ib === -1) return -1;
+          return ia - ib;
+        }
+        return a.file.localeCompare(b.file);
+      });
+    }
+
+    async function openNote(file, btn) {
+      list.querySelectorAll("button").forEach((b) => b.classList.remove("active"));
+      if (btn) btn.classList.add("active");
+      view.innerHTML = `<p class="muted">Loading ${file}…</p>`;
+      try {
+        const url = "./notes/" + file;
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(res.statusText);
+        const md = await res.text();
+        view.innerHTML = marked.parse(md);
+      } catch (err) {
+        view.innerHTML = `<div class="alert">Could not load note. ${err.message}</div>`;
+      }
+    }
+
+    JE.fetchJSON("data/notes.json")
+      .then((data) => {
+        const notes = sortNotes(data.notes);
+        list.innerHTML = notes
+          .map((n) => `<button type="button" data-file="${n.file}">${n.title}</button>`)
+          .join("");
+        const first = list.querySelector("button");
+        if (first) openNote(first.dataset.file, first);
+      })
+      .catch((err) => {
+        list.innerHTML = `<div class="alert">Failed to load notes index.</div>`;
+        console.error(err);
+      });
+
+    list.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-file]");
+      if (!btn) return;
+      openNote(btn.dataset.file, btn);
+    });
+  </script>
+</body>
+</html>

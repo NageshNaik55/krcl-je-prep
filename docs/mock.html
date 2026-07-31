@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Full Mock — JE Civil Prep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="./index.html"><span class="brand-mark">JE</span> Civil Prep</a>
+      <nav class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./practice.html">Practice MCQs</a>
+        <a href="./mock.html" class="active">Full Mock</a>
+        <a href="./notes.html">Notes</a>
+        <a href="./downloads.html">PDFs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap section">
+    <h1 class="section-title">Full Mock Test #1</h1>
+    <p class="section-sub">KRCL JE Civil pattern · 100 Q · 90 minutes · +3 / −1 · English + ಕನ್ನಡ</p>
+
+    <div class="panel" id="intro">
+      <h2>Before you start</h2>
+      <ul>
+        <li>Sit undisturbed for 90 minutes (timer auto-submits).</li>
+        <li>No calculator / notes (as in real CBT).</li>
+        <li>Answers stay hidden until you submit.</li>
+        <li>Use Flag for doubtful questions; navigate from the side grid.</li>
+      </ul>
+      <div class="cta-row">
+        <button class="btn btn-primary" id="start-btn" type="button">Start 90-minute Mock</button>
+        <a class="btn btn-secondary" href="./downloads.html">Prefer PDF mock?</a>
+      </div>
+      <p class="muted" id="load-status">Loading question bank…</p>
+    </div>
+
+    <div id="quiz-root" class="hidden"></div>
+  </main>
+
+  <footer class="footer"><div class="wrap">JE Civil Prep · Full Mock</div></footer>
+  <script src="./assets/js/common.js"></script>
+  <script src="./assets/js/quiz.js"></script>
+  <script>
+    let mockData = null;
+    const status = document.getElementById("load-status");
+    const intro = document.getElementById("intro");
+    const root = document.getElementById("quiz-root");
+
+    JE.fetchJSON("data/mock1.json")
+      .then((data) => {
+        mockData = data;
+        status.textContent = `Ready · ${data.questions.length} questions loaded.`;
+      })
+      .catch((err) => {
+        status.textContent = "Could not load mock data. Open via GitHub Pages or a local server (not as raw file).";
+        console.error(err);
+      });
+
+    document.getElementById("start-btn").addEventListener("click", () => {
+      if (!mockData) return alert("Question bank still loading / failed.");
+      if (!confirm("Start the timed mock now? Timer cannot be paused.")) return;
+      intro.classList.add("hidden");
+      root.classList.remove("hidden");
+      createQuiz({
+        root,
+        questions: mockData.questions,
+        mode: "mock",
+        durationSec: mockData.duration_sec || 5400,
+        marksPerQ: mockData.marks_per_q || 3,
+        negative: mockData.negative || 1,
+        title: mockData.title_en,
+      });
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>

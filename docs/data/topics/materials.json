@@ -1,0 +1,609 @@
+{
+  "id": "materials",
+  "title_en": "Building Materials",
+  "title_kn": "ಕಟ್ಟಡ ಸಾಮಗ್ರಿ",
+  "count": 50,
+  "exam_weight_hint": 50,
+  "questions": [
+    {
+      "id": 1,
+      "en": "The standard size of a modular brick is:",
+      "kn": "ಮಾಡ್ಯುಲರ್ ಇಟ್ಟಿಗೆಯ ಪ್ರಮಾಣಿತ ಗಾತ್ರ:",
+      "options": {
+        "a": "19 × 9 × 9 cm",
+        "b": "20 × 10 × 10 cm",
+        "c": "23 × 11 × 7 cm",
+        "d": "22 × 11 × 7 cm"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 2,
+      "en": "The process of cutting clay to proper size for bricks is called:",
+      "kn": "ಇಟ್ಟಿಗೆಗಳಿಗೆ ಸರಿಯಾದ ಗಾತ್ರಕ್ಕೆ ಮಣ್ಣನ್ನು ಕತ್ತರಿಸುವ ಪ್ರಕ್ರಿಯೆ:",
+      "options": {
+        "a": "Weathering / ಹವಾಮಾನೀಕರಣ",
+        "b": "Kneading / ಕಲಸುವುದು",
+        "c": "Moulding / ಅಚ್ಚು ಹಾಕುವುದು",
+        "d": "Burning / ಸುಡುವುದು"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "en": "Excess of alumina in brick clay makes the brick:",
+      "kn": "ಇಟ್ಟಿಗೆ ಮಣ್ಣಿನಲ್ಲಿ ಅಲ್ಯುಮಿನಾ ಹೆಚ್ಚಾದರೆ ಇಟ್ಟಿಗೆ:",
+      "options": {
+        "a": "Brittle and weak / ಸುಲಭವಾಗಿ ಮುರಿಯುವ ಮತ್ತು ದುರ್ಬಲ",
+        "b": "Soft and liable to warp / ಮೃದು ಮತ್ತು ವಿರೂಪಗೊಳ್ಳುವ",
+        "c": "Porous / ರಂಧ್ರಯುಕ್ತ",
+        "d": "Crack during drying / ಒಣಗುವಾಗ ಬಿರುಕು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 4,
+      "en": "First class bricks should not absorb water more than:",
+      "kn": "ಪ್ರಥಮ ದರ್ಜೆ ಇಟ್ಟಿಗೆಗಳು ನೀರನ್ನು ಹೀರುವ ಪ್ರಮಾಣ ಇದಕ್ಕಿಂತ ಹೆಚ್ಚಿರಬಾರದು:",
+      "options": {
+        "a": "10%",
+        "b": "15%",
+        "c": "20%",
+        "d": "25%"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 5,
+      "en": "The crushing strength of first class brick should not be less than:",
+      "kn": "ಪ್ರಥಮ ದರ್ಜೆ ಇಟ್ಟಿಗೆಯ ಪುಡಿಯುವ ಸಾಮರ್ಥ್ಯ ಇದಕ್ಕಿಂತ ಕಡಿಮೆ ಇರಬಾರದು:",
+      "options": {
+        "a": "3.5 N/mm²",
+        "b": "7 N/mm²",
+        "c": "10.5 N/mm²",
+        "d": "14 N/mm²"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 6,
+      "en": "Frog in a brick is provided on:",
+      "kn": "ಇಟ್ಟಿಗೆಯಲ್ಲಿನ ಫ್ರಾಗ್ (ಗುಂಡಿ) ಎಲ್ಲಿ ಒದಗಿಸಲಾಗುತ್ತದೆ?",
+      "options": {
+        "a": "Top face / ಮೇಲ್ಮುಖ",
+        "b": "Bottom face / ಕೆಳಮುಖ",
+        "c": "End face / ಕೊನೆಯ ಮುಖ",
+        "d": "Side face / ಪಾರ್ಶ್ವ ಮುಖ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 7,
+      "en": "Which stone is most suitable for road metal?",
+      "kn": "ರಸ್ತೆ ಲೋಹಕ್ಕೆ ಅತ್ಯಂತ ಸೂಕ್ತವಾದ ಕಲ್ಲು ಯಾವುದು?",
+      "options": {
+        "a": "Soft limestone / ಮೃದು ಸುಣ್ಣಕಲ್ಲು",
+        "b": "Granite / ಗ್ರಾನೈಟ್",
+        "c": "Marble / ಅಮೃತಶಿಲೆ",
+        "d": "Sandstone / ಮರಳುಗಲ್ಲು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 8,
+      "en": "The specific gravity of most building stones lies between:",
+      "kn": "ಹೆಚ್ಚಿನ ನಿರ್ಮಾಣ ಕಲ್ಲುಗಳ ವಿಶಿಷ್ಟ ಗುರುತ್ವ ಇದರ ನಡುವೆ ಇರುತ್ತದೆ:",
+      "options": {
+        "a": "1.0 to 1.5",
+        "b": "1.5 to 2.0",
+        "c": "2.4 to 2.8",
+        "d": "3.0 to 3.5"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 9,
+      "en": "Marble is an example of:",
+      "kn": "ಅಮೃತಶಿಲೆ ಯಾವುದಕ್ಕೆ ಉದಾಹರಣೆ?",
+      "options": {
+        "a": "Igneous rock / ಅಗ್ನಿಶಿಲೆ",
+        "b": "Sedimentary rock / ಪದರಶಿಲೆ",
+        "c": "Metamorphic rock / ರೂಪಾಂತರ ಶಿಲೆ",
+        "d": "Volcanic rock / ಜ್ವಾಲಾಮುಖಿ ಶಿಲೆ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "en": "Quarrying of stones by blasting is not suitable when:",
+      "kn": "ಸಿಡಿತದಿಂದ ಕಲ್ಲುಗಳನ್ನು ಗಣಿಗಾರಿಕೆ ಮಾಡುವುದು ಯಾವಾಗ ಸೂಕ್ತವಲ್ಲ?",
+      "options": {
+        "a": "Soft stones / ಮೃದು ಕಲ್ಲುಗಳು",
+        "b": "Hard stones / ಗಟ್ಟಿ ಕಲ್ಲುಗಳು",
+        "c": "Stratified rocks / ಪದರಯುಕ್ತ ಶಿಲೆಗಳು",
+        "d": "Compact rocks / ದಟ್ಟ ಶಿಲೆಗಳು"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 11,
+      "en": "The main compound responsible for early strength of cement is:",
+      "kn": "ಸಿಮೆಂಟಿನ ಆರಂಭಿಕ ಸಾಮರ್ಥ್ಯಕ್ಕೆ ಮುಖ್ಯವಾದ ಸಂಯುಕ್ತ:",
+      "options": {
+        "a": "C₂S",
+        "b": "C₃S",
+        "c": "C₃A",
+        "d": "C₄AF"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 12,
+      "en": "The compound responsible for ultimate strength of cement is:",
+      "kn": "ಸಿಮೆಂಟಿನ ಅಂತಿಮ ಸಾಮರ್ಥ್ಯಕ್ಕೆ ಕಾರಣವಾದ ಸಂಯುಕ್ತ:",
+      "options": {
+        "a": "C₃S",
+        "b": "C₂S",
+        "c": "C₃A",
+        "d": "C₄AF"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 13,
+      "en": "Initial setting time of ordinary Portland cement should not be less than:",
+      "kn": "ಸಾಮಾನ್ಯ ಪೋರ್ಟ್‌ಲ್ಯಾಂಡ್ ಸಿಮೆಂಟಿನ ಆರಂಭಿಕ ಹೊಂದಿಕೆಯ ಸಮಯ ಇದಕ್ಕಿಂತ ಕಡಿಮೆ ಇರಬಾರದು:",
+      "options": {
+        "a": "15 minutes / 15 ನಿಮಿಷ",
+        "b": "30 minutes / 30 ನಿಮಿಷ",
+        "c": "45 minutes / 45 ನಿಮಿಷ",
+        "d": "60 minutes / 60 ನಿಮಿಷ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 14,
+      "en": "Final setting time of ordinary Portland cement should not be more than:",
+      "kn": "ಸಾಮಾನ್ಯ ಪೋರ್ಟ್‌ಲ್ಯಾಂಡ್ ಸಿಮೆಂಟಿನ ಅಂತಿಮ ಹೊಂದಿಕೆಯ ಸಮಯ ಇದಕ್ಕಿಂತ ಹೆಚ್ಚಿರಬಾರದು:",
+      "options": {
+        "a": "5 hours / 5 ಗಂಟೆ",
+        "b": "6 hours / 6 ಗಂಟೆ",
+        "c": "8 hours / 8 ಗಂಟೆ",
+        "d": "10 hours / 10 ಗಂಟೆ"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 15,
+      "en": "Gypsum is added to cement to:",
+      "kn": "ಸಿಮೆಂಟಿಗೆ ಜಿಪ್ಸಂ ಸೇರಿಸುವುದು:",
+      "options": {
+        "a": "Increase strength / ಸಾಮರ್ಥ್ಯ ಹೆಚ್ಚಿಸಲು",
+        "b": "Decrease setting time / ಹೊಂದಿಕೆಯ ಸಮಯ ಕಡಿಮೆ ಮಾಡಲು",
+        "c": "Control setting time / ಹೊಂದಿಕೆಯ ಸಮಯ ನಿಯಂತ್ರಿಸಲು",
+        "d": "Increase workability / ಕೆಲಸ ಸಾಧ್ಯತೆ ಹೆಚ್ಚಿಸಲು"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 16,
+      "en": "Ordinary Portland cement contains about how much lime?",
+      "kn": "ಸಾಮಾನ್ಯ ಪೋರ್ಟ್‌ಲ್ಯಾಂಡ್ ಸಿಮೆಂಟಿನಲ್ಲಿ ಸುಣ್ಣದ ಪ್ರಮಾಣ ಸುಮಾರು:",
+      "options": {
+        "a": "40–50%",
+        "b": "50–60%",
+        "c": "60–67%",
+        "d": "70–80%"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 17,
+      "en": "Rapid hardening cement attains strength of OPC at 28 days in about:",
+      "kn": "ತ್ವರಿತ ಗಟ್ಟಿಯಾಗುವ ಸಿಮೆಂಟ್ OPCಯ 28 ದಿನಗಳ ಸಾಮರ್ಥ್ಯವನ್ನು ಸುಮಾರು ಎಷ್ಟು ದಿನಗಳಲ್ಲಿ ಪಡೆಯುತ್ತದೆ?",
+      "options": {
+        "a": "1 day / 1 ದಿನ",
+        "b": "3 days / 3 ದಿನ",
+        "c": "7 days / 7 ದಿನ",
+        "d": "14 days / 14 ದಿನ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 18,
+      "en": "The moisture content in well-seasoned timber should be:",
+      "kn": "ಚೆನ್ನಾಗಿ ಹದಗೊಳಿಸಿದ ಮರದಲ್ಲಿನ ತೇವಾಂಶ ಇರಬೇಕು:",
+      "options": {
+        "a": "5–10%",
+        "b": "10–12%",
+        "c": "15–20%",
+        "d": "25–30%"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 19,
+      "en": "The defect caused by over-maturity of a tree is:",
+      "kn": "ಮರದ ಅತಿ ಪಕ್ವತೆಯಿಂದ ಉಂಟಾಗುವ ದೋಷ:",
+      "options": {
+        "a": "Knot / ಗಂಟು",
+        "b": "Shake / ಬಿರುಕು (ಶೇಕ್)",
+        "c": "Foxiness / ಫಾಕ್ಸಿನೆಸ್",
+        "d": "Rind gall / ರಿಂಡ್ ಗಾಲ್"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 20,
+      "en": "Plywood is made by:",
+      "kn": "ಪ್ಲೈವುಡ್ ತಯಾರಿಸುವ ವಿಧಾನ:",
+      "options": {
+        "a": "Pressing veneers with grains parallel / ಸಮಾನಾಂತರ ಧಾನ್ಯದೊಂದಿಗೆ ವೆನಿಯರ್‌ಗಳನ್ನು ಒತ್ತುವುದು",
+        "b": "Gluing veneers with grains at right angles / ಲಂಬ ಕೋನದಲ್ಲಿ ಧಾನ್ಯವಿರುವ ವೆನಿಯರ್‌ಗಳನ್ನು ಅಂಟಿಸುವುದು",
+        "c": "Sawing timber into thin sheets / ಮರವನ್ನು ತೆಳುವಾದ ಹಾಳೆಗಳಾಗಿ ಕೊಯ್ಯುವುದು",
+        "d": "Compressing wood pulp / ಮರದ ತಿರುಳನ್ನು ಸಂಕುಚಿಸುವುದು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 21,
+      "en": "Seasoning of timber is done mainly to:",
+      "kn": "ಮರವನ್ನು ಹದಗೊಳಿಸುವ ಮುಖ್ಯ ಉದ್ದೇಶ:",
+      "options": {
+        "a": "Increase weight / ತೂಕ ಹೆಚ್ಚಿಸಲು",
+        "b": "Reduce moisture content / ತೇವಾಂಶ ಕಡಿಮೆ ಮಾಡಲು",
+        "c": "Increase moisture / ತೇವಾಂಶ ಹೆಚ್ಚಿಸಲು",
+        "d": "Change colour / ಬಣ್ಣ ಬದಲಾಯಿಸಲು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 22,
+      "en": "Fat lime is also known as:",
+      "kn": "ಕೊಬ್ಬಿನ ಸುಣ್ಣವನ್ನು ಇನ್ನೊಂದು ಹೆಸರಿನಿಂದ ಕರೆಯುವುದು:",
+      "options": {
+        "a": "Hydraulic lime / ಜಲಶಕ್ತಿ ಸುಣ್ಣ",
+        "b": "Pure lime / ಶುದ್ಧ ಸುಣ್ಣ",
+        "c": "Poor lime / ಬಡ ಸುಣ್ಣ",
+        "d": "Quick lime / ತ್ವರಿತ ಸುಣ್ಣ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 23,
+      "en": "Hydraulic lime hardens:",
+      "kn": "ಜಲಶಕ್ತಿ ಸುಣ್ಣ ಗಟ್ಟಿಯಾಗುವುದು:",
+      "options": {
+        "a": "Only in air / ಕೇವಲ ಗಾಳಿಯಲ್ಲಿ",
+        "b": "Only in water / ಕೇವಲ ನೀರಿನಲ್ಲಿ",
+        "c": "Under water / ನೀರಿನಲ್ಲಿ",
+        "d": "Only on heating / ಕೇವಲ ಬಿಸಿ ಮಾಡಿದಾಗ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 24,
+      "en": "Slaking of lime means:",
+      "kn": "ಸುಣ್ಣವನ್ನು ತಣಿಸುವುದು (ಸ್ಲೇಕಿಂಗ್) ಎಂದರೆ:",
+      "options": {
+        "a": "Burning limestone / ಸುಣ್ಣಕಲ್ಲನ್ನು ಸುಡುವುದು",
+        "b": "Adding water to quick lime / ತ್ವರಿತ ಸುಣ್ಣಕ್ಕೆ ನೀರು ಸೇರಿಸುವುದು",
+        "c": "Mixing sand / ಮರಳು ಬೆರೆಸುವುದು",
+        "d": "Powdering lime / ಸುಣ್ಣವನ್ನು ಪುಡಿ ಮಾಡುವುದು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 25,
+      "en": "Water-cement ratio mainly affects:",
+      "kn": "ನೀರು-ಸಿಮೆಂಟ್ ಅನುಪಾತ ಮುಖ್ಯವಾಗಿ ಪರಿಣಾಮ ಬೀರುವುದು:",
+      "options": {
+        "a": "Colour of concrete / ಕಾಂಕ್ರೀಟಿನ ಬಣ್ಣ",
+        "b": "Strength and workability of concrete / ಕಾಂಕ್ರೀಟಿನ ಸಾಮರ್ಥ್ಯ ಮತ್ತು ಕೆಲಸ ಸಾಧ್ಯತೆ",
+        "c": "Density of aggregate / ಸಮುಚ್ಚಯದ ಸಾಂದ್ರತೆ",
+        "d": "Size of mould / ಅಚ್ಚಿನ ಗಾತ್ರ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 26,
+      "en": "Higher water-cement ratio generally results in:",
+      "kn": "ಹೆಚ್ಚಿನ ನೀರು-ಸಿಮೆಂಟ್ ಅನುಪಾತ ಸಾಮಾನ್ಯವಾಗಿ ಉಂಟುಮಾಡುವುದು:",
+      "options": {
+        "a": "Higher strength / ಹೆಚ್ಚಿನ ಸಾಮರ್ಥ್ಯ",
+        "b": "Lower strength / ಕಡಿಮೆ ಸಾಮರ್ಥ್ಯ",
+        "c": "No change in strength / ಸಾಮರ್ಥ್ಯದಲ್ಲಿ ಬದಲಾವಣೆ ಇಲ್ಲ",
+        "d": "Higher durability only / ಕೇವಲ ಹೆಚ್ಚಿನ ಬಾಳಿಕೆ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 27,
+      "en": "Slump test is used to measure:",
+      "kn": "ಸ್ಲಂಪ್ ಪರೀಕ್ಷೆಯನ್ನು ಅಳೆಯಲು ಬಳಸುವುದು:",
+      "options": {
+        "a": "Strength of concrete / ಕಾಂಕ್ರೀಟಿನ ಸಾಮರ್ಥ್ಯ",
+        "b": "Workability of concrete / ಕಾಂಕ್ರೀಟಿನ ಕೆಲಸ ಸಾಧ್ಯತೆ",
+        "c": "Durability of concrete / ಕಾಂಕ್ರೀಟಿನ ಬಾಳಿಕೆ",
+        "d": "Density of concrete / ಕಾಂಕ್ರೀಟಿನ ಸಾಂದ್ರತೆ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 28,
+      "en": "For ordinary RCC work, recommended slump is about:",
+      "kn": "ಸಾಮಾನ್ಯ RCC ಕೆಲಸಕ್ಕೆ ಶಿಫಾರಸು ಮಾಡುವ ಸ್ಲಂಪ್ ಸುಮಾರು:",
+      "options": {
+        "a": "0–25 mm",
+        "b": "25–50 mm",
+        "c": "80–150 mm",
+        "d": "150–200 mm"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 29,
+      "en": "An admixture used to increase workability without adding water is:",
+      "kn": "ನೀರು ಸೇರಿಸದೆ ಕೆಲಸ ಸಾಧ್ಯತೆ ಹೆಚ್ಚಿಸಲು ಬಳಸುವ ಮಿಶ್ರಣ:",
+      "options": {
+        "a": "Accelerator / ವೇಗವರ್ಧಕ",
+        "b": "Retarder / ವಿಳಂಬಕ",
+        "c": "Plasticizer / ಪ್ಲಾಸ್ಟಿಸೈಜರ್",
+        "d": "Air-entraining agent only / ಕೇವಲ ಗಾಳಿ ಸೇರಿಸುವ ಪದಾರ್ಥ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 30,
+      "en": "Calcium chloride in concrete acts as:",
+      "kn": "ಕಾಂಕ್ರೀಟಿನಲ್ಲಿ ಕ್ಯಾಲ್ಸಿಯಂ ಕ್ಲೋರೈಡ್ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದು:",
+      "options": {
+        "a": "Retarder / ವಿಳಂಬಕ",
+        "b": "Accelerator / ವೇಗವರ್ಧಕ",
+        "c": "Plasticizer / ಪ್ಲಾಸ್ಟಿಸೈಜರ್",
+        "d": "Air-entraining agent / ಗಾಳಿ ಸೇರಿಸುವ ಪದಾರ್ಥ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 31,
+      "en": "Nominal mix M20 means cement : sand : aggregate as:",
+      "kn": "ನಾಮಮಾತ್ರ ಮಿಶ್ರಣ M20 ಎಂದರೆ ಸಿಮೆಂಟ್ : ಮರಳು : ಸಮುಚ್ಚಯ:",
+      "options": {
+        "a": "1 : 1 : 2",
+        "b": "1 : 1.5 : 3",
+        "c": "1 : 2 : 4",
+        "d": "1 : 3 : 6"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 32,
+      "en": "The size of cube specimen for compressive strength test of concrete is:",
+      "kn": "ಕಾಂಕ್ರೀಟಿನ ಸಂಕೋಚನ ಸಾಮರ್ಥ್ಯ ಪರೀಕ್ಷೆಗೆ ಘನ ಮಾದರಿಯ ಗಾತ್ರ:",
+      "options": {
+        "a": "100 mm",
+        "b": "150 mm",
+        "c": "200 mm",
+        "d": "300 mm"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 33,
+      "en": "Concrete cubes are normally tested for compressive strength at:",
+      "kn": "ಕಾಂಕ್ರೀಟ್ ಘನಗಳನ್ನು ಸಂಕೋಚನ ಸಾಮರ್ಥ್ಯಕ್ಕೆ ಸಾಮಾನ್ಯವಾಗಿ ಪರೀಕ್ಷಿಸುವುದು:",
+      "options": {
+        "a": "3 and 7 days / 3 ಮತ್ತು 7 ದಿನ",
+        "b": "7 and 28 days / 7 ಮತ್ತು 28 ದಿನ",
+        "c": "14 and 21 days / 14 ಮತ್ತು 21 ದಿನ",
+        "d": "28 and 56 days / 28 ಮತ್ತು 56 ದಿನ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 34,
+      "en": "In English bond, the thickness of wall is at least:",
+      "kn": "ಇಂಗ್ಲಿಷ್ ಬಂಧದಲ್ಲಿ ಗೋಡೆಯ ದಪ್ಪ ಕನಿಷ್ಠ:",
+      "options": {
+        "a": "Half brick / ಅರ್ಧ ಇಟ್ಟಿಗೆ",
+        "b": "One brick / ಒಂದು ಇಟ್ಟಿಗೆ",
+        "c": "One and half brick / ಒಂದುವರೆ ಇಟ್ಟಿಗೆ",
+        "d": "Two bricks / ಎರಡು ಇಟ್ಟಿಗೆ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 35,
+      "en": "In Flemish bond, each course consists of:",
+      "kn": "ಫ್ಲೆಮಿಷ್ ಬಂಧದಲ್ಲಿ ಪ್ರತಿ ಪದರವು ಹೊಂದಿರುವುದು:",
+      "options": {
+        "a": "Only headers / ಕೇವಲ ಹೆಡರ್‌ಗಳು",
+        "b": "Only stretchers / ಕೇವಲ ಸ್ಟ್ರೆಚರ್‌ಗಳು",
+        "c": "Alternate headers and stretchers / ಪರ್ಯಾಯ ಹೆಡರ್ ಮತ್ತು ಸ್ಟ್ರೆಚರ್‌ಗಳು",
+        "d": "Two stretchers and one header / ಎರಡು ಸ್ಟ್ರೆಚರ್ ಮತ್ತು ಒಂದು ಹೆಡರ್"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 36,
+      "en": "The strongest bond in brick masonry is:",
+      "kn": "ಇಟ್ಟಿಗೆ ಕಟ್ಟಡದಲ್ಲಿ ಅತಿ ಬಲವಾದ ಬಂಧ:",
+      "options": {
+        "a": "English bond / ಇಂಗ್ಲಿಷ್ ಬಂಧ",
+        "b": "Flemish bond / ಫ್ಲೆಮಿಷ್ ಬಂಧ",
+        "c": "Stretching bond / ಸ್ಟ್ರೆಚಿಂಗ್ ಬಂಧ",
+        "d": "Heading bond / ಹೆಡಿಂಗ್ ಬಂಧ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 37,
+      "en": "Terrazzo flooring is made of:",
+      "kn": "ಟೆರಾಜೋ ನೆಲಹಾಸು ತಯಾರಿಸುವುದು:",
+      "options": {
+        "a": "Cement and sand only / ಕೇವಲ ಸಿಮೆಂಟ್ ಮತ್ತು ಮರಳು",
+        "b": "Marble chips in cement matrix / ಸಿಮೆಂಟ್ ಮ್ಯಾಟ್ರಿಕ್ಸ್‌ನಲ್ಲಿ ಅಮೃತಶಿಲೆ ತುಂಡುಗಳು",
+        "c": "Wooden planks / ಮರದ ಹಲಗೆಗಳು",
+        "d": "Clay tiles only / ಕೇವಲ ಮಣ್ಣಿನ ಹೆಂಚುಗಳು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 38,
+      "en": "Mosaic flooring consists of:",
+      "kn": "ಮೊಸಾಯಿಕ್ ನೆಲಹಾಸು ಒಳಗೊಂಡಿರುವುದು:",
+      "options": {
+        "a": "Small pieces of marble or tiles set in cement / ಸಿಮೆಂಟ್‌ನಲ್ಲಿ ಹೊಂದಿಸಿದ ಅಮೃತಶಿಲೆ ಅಥವಾ ಹೆಂಚುಗಳ ಸಣ್ಣ ತುಂಡುಗಳು",
+        "b": "Only concrete / ಕೇವಲ ಕಾಂಕ್ರೀಟ್",
+        "c": "Only wood / ಕೇವಲ ಮರ",
+        "d": "Only asphalt / ಕೇವಲ ಆಸ್ಫಾಲ್ಟ್"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 39,
+      "en": "Pitched roof means:",
+      "kn": "ಇಳಿಜಾರು ಛಾವಣಿ ಎಂದರೆ:",
+      "options": {
+        "a": "Flat roof / ಸಮತಲ ಛಾವಣಿ",
+        "b": "Roof with slope / ಇಳಿಜಾರು ಹೊಂದಿರುವ ಛಾವಣಿ",
+        "c": "Dome roof / ಗುಮ್ಮಟ ಛಾವಣಿ",
+        "d": "Shell roof / ಶೆಲ್ ಛಾವಣಿ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 40,
+      "en": "AC sheets used for roofing are made of:",
+      "kn": "ಛಾವಣಿಗೆ ಬಳಸುವ AC ಹಾಳೆಗಳು ತಯಾರಿಸುವುದು:",
+      "options": {
+        "a": "Aluminium and copper / ಅಲ್ಯುಮಿನಿಯಂ ಮತ್ತು ತಾಮ್ರ",
+        "b": "Asbestos cement / ಆಸ್ಬೆಸ್ಟಾಸ್ ಸಿಮೆಂಟ್",
+        "c": "Asphalt concrete / ಆಸ್ಫಾಲ್ಟ್ ಕಾಂಕ್ರೀಟ್",
+        "d": "Alloy steel / ಮಿಶ್ರಲೋಹ ಉಕ್ಕು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 41,
+      "en": "The vertical member of scaffolding is called:",
+      "kn": "ಸ್ಕ್ಯಾಫೋಲ್ಡಿಂಗ್‌ನ ಲಂಬ ಸದಸ್ಯನನ್ನು ಕರೆಯುವುದು:",
+      "options": {
+        "a": "Ledger / ಲೆಡ್ಜರ್",
+        "b": "Brace / ಬ್ರೇಸ್",
+        "c": "Standard / ಸ್ಟ್ಯಾಂಡರ್ಡ್",
+        "d": "Putlog / ಪುಟ್‌ಲಾಗ್"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 42,
+      "en": "The horizontal member of scaffolding parallel to the wall is:",
+      "kn": "ಗೋಡೆಗೆ ಸಮಾನಾಂತರವಾದ ಸ್ಕ್ಯಾಫೋಲ್ಡಿಂಗ್‌ನ ಸಮತಲ ಸದಸ್ಯ:",
+      "options": {
+        "a": "Standard / ಸ್ಟ್ಯಾಂಡರ್ಡ್",
+        "b": "Ledger / ಲೆಡ್ಜರ್",
+        "c": "Putlog / ಪುಟ್‌ಲಾಗ್",
+        "d": "Raker / ರೇಕರ್"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 43,
+      "en": "DPC stands for:",
+      "kn": "DPC ಎಂದರೆ:",
+      "options": {
+        "a": "Direct Pressure Concrete / ಡೈರೆಕ್ಟ್ ಪ್ರೆಶರ್ ಕಾಂಕ್ರೀಟ್",
+        "b": "Damp Proof Course / ಡ್ಯಾಂಪ್ ಪ್ರೂಫ್ ಕೋರ್ಸ್",
+        "c": "Dense Portland Cement / ಡೆನ್ಸ್ ಪೋರ್ಟ್‌ಲ್ಯಾಂಡ್ ಸಿಮೆಂಟ್",
+        "d": "Double Plaster Coat / ಡಬಲ್ ಪ್ಲಾಸ್ಟರ್ ಕೋಟ್"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 44,
+      "en": "The main function of DPC is to:",
+      "kn": "DPCಯ ಮುಖ್ಯ ಕಾರ್ಯ:",
+      "options": {
+        "a": "Increase wall strength / ಗೋಡೆಯ ಸಾಮರ್ಥ್ಯ ಹೆಚ್ಚಿಸುವುದು",
+        "b": "Prevent moisture rising into walls / ಗೋಡೆಗಳಲ್ಲಿ ತೇವಾಂಶ ಏರುವುದನ್ನು ತಡೆಯುವುದು",
+        "c": "Decorate the building / ಕಟ್ಟಡವನ್ನು ಅಲಂಕರಿಸುವುದು",
+        "d": "Reduce cost / ವೆಚ್ಚ ಕಡಿಮೆ ಮಾಡುವುದು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 45,
+      "en": "Suitable material for DPC at plinth level is:",
+      "kn": "ಪ್ಲಿಂತ್ ಮಟ್ಟದಲ್ಲಿ DPCಗೆ ಸೂಕ್ತ ವಸ್ತು:",
+      "options": {
+        "a": "Mud mortar / ಮಣ್ಣಿನ ಗಾರೆ",
+        "b": "Cement concrete or bitumen / ಸಿಮೆಂಟ್ ಕಾಂಕ್ರೀಟ್ ಅಥವಾ ಬಿಟುಮೆನ್",
+        "c": "Loose sand / ಸಡಿಲ ಮರಳು",
+        "d": "Soft clay / ಮೃದು ಮಣ್ಣು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 46,
+      "en": "Bull’s eye brick is used in:",
+      "kn": "ಬುಲ್‌ಸ್ ಐ ಇಟ್ಟಿಗೆಯನ್ನು ಬಳಸುವುದು:",
+      "options": {
+        "a": "Foundations / ಅಸ್ತಿವಾರಗಳಲ್ಲಿ",
+        "b": "Circular or arched openings / ವೃತ್ತಾಕಾರ ಅಥವಾ ಕಮಾನು ತೆರೆಯುವಿಕೆಗಳಲ್ಲಿ",
+        "c": "Flooring / ನೆಲಹಾಸಿನಲ್ಲಿ",
+        "d": "Partition walls only / ಕೇವಲ ವಿಭಜಕ ಗೋಡೆಗಳಲ್ಲಿ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 47,
+      "en": "Efflorescence on bricks is caused by:",
+      "kn": "ಇಟ್ಟಿಗೆಗಳ ಮೇಲೆ ಎಫ್ಲೋರೆಸೆನ್ಸ್‌ಗೆ ಕಾರಣ:",
+      "options": {
+        "a": "Excess silica / ಹೆಚ್ಚುವರಿ ಸಿಲಿಕಾ",
+        "b": "Presence of soluble salts / ಕರಗುವ ಲವಣಗಳ ಉಪಸ್ಥಿತಿ",
+        "c": "Excess of iron oxide / ಹೆಚ್ಚುವರಿ ಕಬ್ಬಿಣದ ಆಕ್ಸೈಡ್",
+        "d": "Under-burning / ಕಡಿಮೆ ಸುಡುವುದು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 48,
+      "en": "Lean concrete means concrete with:",
+      "kn": "ಲೀನ್ ಕಾಂಕ್ರೀಟ್ ಎಂದರೆ:",
+      "options": {
+        "a": "High cement content / ಹೆಚ್ಚಿನ ಸಿಮೆಂಟ್",
+        "b": "Low cement content / ಕಡಿಮೆ ಸಿಮೆಂಟ್",
+        "c": "High water content only / ಕೇವಲ ಹೆಚ್ಚಿನ ನೀರು",
+        "d": "No aggregate / ಸಮುಚ್ಚಯ ಇಲ್ಲದ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 49,
+      "en": "The aggregate which passes through 4.75 mm IS sieve is called:",
+      "kn": "4.75 ಮಿ.ಮೀ IS ಜಾಲರಿಯ ಮೂಲಕ ಹಾದುಹೋಗುವ ಸಮುಚ್ಚಯವನ್ನು ಕರೆಯುವುದು:",
+      "options": {
+        "a": "Coarse aggregate / ಒರಟು ಸಮುಚ್ಚಯ",
+        "b": "Fine aggregate / ಸೂಕ್ಷ್ಮ ಸಮುಚ್ಚಯ",
+        "c": "All-in aggregate / ಎಲ್ಲಾ-ಒಳಗಿನ ಸಮುಚ್ಚಯ",
+        "d": "Cyclopean aggregate / ಸೈಕ್ಲೋಪಿಯನ್ ಸಮುಚ್ಚಯ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 50,
+      "en": "The maximum size of aggregate for RCC is generally limited to:",
+      "kn": "RCCಗೆ ಸಮುಚ್ಚಯದ ಗರಿಷ್ಠ ಗಾತ್ರ ಸಾಮಾನ್ಯವಾಗಿ ಸೀಮಿತವಾಗಿರುವುದು:",
+      "options": {
+        "a": "10 mm",
+        "b": "20 mm",
+        "c": "40 mm",
+        "d": "80 mm"
+      },
+      "answer": "b"
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "id": "science",
+  "title_en": "General Science",
+  "title_kn": "ಸಾಮಾನ್ಯ ವಿಜ್ಞಾನ",
+  "count": 50,
+  "exam_weight_hint": 10,
+  "questions": [
+    {
+      "id": 1,
+      "en": "What is the SI unit of force?",
+      "kn": "ಬಲದ SI ಘಟಕ ಯಾವುದು?",
+      "options": {
+        "a": "Joule / ಜೌಲ್",
+        "b": "Newton / ನ್ಯೂಟನ್",
+        "c": "Watt / ವಾಟ್",
+        "d": "Pascal / ಪ್ಯಾಸ್ಕಲ್"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "en": "Approximate speed of light in vacuum is:",
+      "kn": "ನಿರ್ವಾತದಲ್ಲಿ ಬೆಳಕಿನ ಅಂದಾಜು ವೇಗ:",
+      "options": {
+        "a": "3×10⁸ m/s",
+        "b": "3×10⁶ m/s",
+        "c": "340 m/s",
+        "d": "3×10³ m/s"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 3,
+      "en": "Ohm’s law is expressed as:",
+      "kn": "ಓಮ್ ನಿಯಮವನ್ನು ಹೀಗೆ ಬರೆಯಲಾಗುತ್ತದೆ:",
+      "options": {
+        "a": "V = IR",
+        "b": "P = IR",
+        "c": "F = ma",
+        "d": "W = Pt"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 4,
+      "en": "SI unit of power is:",
+      "kn": "ಶಕ್ತಿ (ಪವರ್)ಯ SI ಘಟಕ:",
+      "options": {
+        "a": "Joule / ಜೌಲ್",
+        "b": "Watt / ವಾಟ್",
+        "c": "Volt / ವೋಲ್ಟ್",
+        "d": "Ampere / ಆಂಪಿಯರ್"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 5,
+      "en": "Kinetic energy of a body is given by:",
+      "kn": "ವಸ್ತುವಿನ ಚಲನಾತ್ಮಕ ಶಕ್ತಿಯ ಸೂತ್ರ:",
+      "options": {
+        "a": "mgh",
+        "b": "½mv²",
+        "c": "mv",
+        "d": "Fd"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "en": "Potential energy near earth surface is:",
+      "kn": "ಭೂಮಿ ಮೇಲ್ಮೈ ಹತ್ತಿರ ಸ್ಥಿತಿ ಶಕ್ತಿ:",
+      "options": {
+        "a": "½mv²",
+        "b": "mgh",
+        "c": "Pt",
+        "d": "IR"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 7,
+      "en": "Sound cannot travel through:",
+      "kn": "ಧ್ವನಿ ಯಾವುದರ ಮೂಲಕ ಹರಡುವುದಿಲ್ಲ?",
+      "options": {
+        "a": "Air / ಗಾಳಿ",
+        "b": "Water / ನೀರು",
+        "c": "Vacuum / ನಿರ್ವಾತ",
+        "d": "Steel / ಉಕ್ಕು"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 8,
+      "en": "A convex lens is:",
+      "kn": "ಕಾನ್ವೆಕ್ಸ್ ಲೆನ್ಸ್:",
+      "options": {
+        "a": "Diverging / ಹರಡುವ",
+        "b": "Converging / ಒಗ್ಗೂಡಿಸುವ",
+        "c": "Plane / ಸಮತಲ",
+        "d": "None / ಯಾವುದೂ ಅಲ್ಲ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "en": "Rear-view mirrors in vehicles are generally:",
+      "kn": "ವಾಹನಗಳ ಹಿಂಬದಿ ಕನ್ನಡಿಗಳು ಸಾಮಾನ್ಯವಾಗಿ:",
+      "options": {
+        "a": "Concave / ಕಾನ್ಕೇವ್",
+        "b": "Convex / ಕಾನ್ವೆಕ್ಸ್",
+        "c": "Plane only / ಕೇವಲ ಸಮತಲ",
+        "d": "Cylindrical only / ಕೇವಲ ಸಿಲಿಂಡರ್"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 10,
+      "en": "SI unit of frequency is:",
+      "kn": "ಆವರ್ತನದ SI ಘಟಕ:",
+      "options": {
+        "a": "Hertz / ಹರ್ಟ್ಜ್",
+        "b": "Decibel / ಡೆಸಿಬೆಲ್",
+        "c": "Candela / ಕ್ಯಾಂಡೆಲಾ",
+        "d": "Lux / ಲಕ್ಸ್"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 11,
+      "en": "Work done by a force is zero when force is:",
+      "kn": "ಬಲವು ಯಾವಾಗ ಕೆಲಸ ಶೂನ್ಯ ಮಾಡುತ್ತದೆ?",
+      "options": {
+        "a": "Parallel to displacement / ಸ್ಥಳಾಂತರಕ್ಕೆ ಸಮಾನಾಂತರ",
+        "b": "Perpendicular to displacement / ಸ್ಥಳಾಂತರಕ್ಕೆ ಲಂಬ",
+        "c": "Along motion always / ಯಾವಾಗಲೂ ಚಲನೆಯ ದಿಕ್ಕಿನಲ್ಲಿ",
+        "d": "Opposite to motion always / ಯಾವಾಗಲೂ ವಿರುದ್ಧ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 12,
+      "en": "Acceleration due to gravity on Earth is about:",
+      "kn": "ಭೂಮಿಯ ಮೇಲೆ ಗುರುತ್ವ ವೇಗವರ್ಧನೆ ಸುಮಾರು:",
+      "options": {
+        "a": "9.8 m/s²",
+        "b": "98 m/s²",
+        "c": "0.98 m/s²",
+        "d": "19.6 m/s²"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 13,
+      "en": "Total resistance in series combination is:",
+      "kn": "ಶ್ರೇಣಿ ಸಂಯೋಜನೆಯಲ್ಲಿ ಒಟ್ಟು ರೋಧ:",
+      "options": {
+        "a": "1/R1 + 1/R2",
+        "b": "R1 + R2",
+        "c": "R1 × R2",
+        "d": "R1 − R2"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 14,
+      "en": "For two resistors in parallel:",
+      "kn": "ಎರಡು ರೋಧಗಳ ಸಮಾನಾಂತರ ಸಂಯೋಜನೆಯಲ್ಲಿ:",
+      "options": {
+        "a": "R = R1 + R2",
+        "b": "1/R = 1/R1 + 1/R2",
+        "c": "R = R1R2",
+        "d": "R = R1/R2"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 15,
+      "en": "pH of pure water is:",
+      "kn": "ಶುದ್ಧ ನೀರಿನ pH ಮೌಲ್ಯ:",
+      "options": {
+        "a": "0",
+        "b": "7",
+        "c": "14",
+        "d": "1"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 16,
+      "en": "An acid turns blue litmus paper:",
+      "kn": "ಆಮ್ಲವು ನೀಲಿ ಲಿಟ್‌ಮಸ್ ಕಾಗದವನ್ನು:",
+      "options": {
+        "a": "Blue / ನೀಲಿ",
+        "b": "Red / ಕೆಂಪು",
+        "c": "Green / ಹಸಿರು",
+        "d": "No change / ಬದಲಾವಣೆಯಿಲ್ಲ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 17,
+      "en": "Chemical formula of water is:",
+      "kn": "ನೀರಿನ ರಾಸಾಯನಿಕ ಸೂತ್ರ:",
+      "options": {
+        "a": "H₂O",
+        "b": "CO₂",
+        "c": "NaCl",
+        "d": "O₂"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 18,
+      "en": "Rusting of iron requires:",
+      "kn": "ಕಬ್ಬಿಣದ ತುಕ್ಕು ಹಿಡಿಯಲು ಬೇಕಾಗುವುದು:",
+      "options": {
+        "a": "Only air / ಕೇವಲ ಗಾಳಿ",
+        "b": "Only water / ಕೇವಲ ನೀರು",
+        "c": "Air and moisture / ಗಾಳಿ ಮತ್ತು ತೇವ",
+        "d": "Only oil / ಕೇವಲ ಎಣ್ಣೆ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 19,
+      "en": "Atomic number of an element is the number of:",
+      "kn": "ಮೂಲಧಾತುವಿನ ಪರಮಾಣು ಸಂಖ್ಯೆ ಎಂದರೆ:",
+      "options": {
+        "a": "Neutrons / ನ್ಯೂಟ್ರಾನ್‌ಗಳು",
+        "b": "Protons / ಪ್ರೋಟಾನ್‌ಗಳು",
+        "c": "Neutrons + electrons",
+        "d": "Only nucleons without protons meaning"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 20,
+      "en": "NaCl is an example of:",
+      "kn": "NaCl ಇದಕ್ಕೆ ಉದಾಹರಣೆ:",
+      "options": {
+        "a": "Acid / ಆಮ್ಲ",
+        "b": "Base / ಕ್ಷಾರ",
+        "c": "Salt / ಲವಣ",
+        "d": "Metal / ಲೋಹ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 21,
+      "en": "Photosynthesis takes place mainly in:",
+      "kn": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆ ಮುಖ್ಯವಾಗಿ ನಡೆಯುವುದು:",
+      "options": {
+        "a": "Mitochondria / ಮೈಟೊಕಾಂಡ್ರಿಯಾ",
+        "b": "Chloroplast / ಕ್ಲೋರೋಪ್ಲಾಸ್ಟ್",
+        "c": "Nucleus / ಕೇಂದ್ರಕ",
+        "d": "Ribosome / ರೈಬೋಸೋಮ್"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 22,
+      "en": "Main useful products of photosynthesis are:",
+      "kn": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ಮುಖ್ಯ ಉಪಯುಕ್ತ ಉತ್ಪನ್ನಗಳು:",
+      "options": {
+        "a": "Only CO₂",
+        "b": "Glucose and oxygen / ಗ್ಲೂಕೋಸ್ ಮತ್ತು ಆಮ್ಲಜನಕ",
+        "c": "Only nitrogen",
+        "d": "Only proteins"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 23,
+      "en": "Human heart has how many chambers?",
+      "kn": "ಮಾನವ ಹೃದಯದಲ್ಲಿ ಎಷ್ಟು ಕೋಣೆಗಳಿವೆ?",
+      "options": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 24,
+      "en": "Kidneys help mainly in:",
+      "kn": "ಮೂತ್ರಪಿಂಡಗಳು ಮುಖ್ಯವಾಗಿ ಸಹಾಯ ಮಾಡುವುದು:",
+      "options": {
+        "a": "Digestion / ಜೀರ್ಣಕ್ರಿಯೆ",
+        "b": "Excretion / ವಿಸರ್ಜನೆ",
+        "c": "Respiration only / ಕೇವಲ ಉಸಿರಾಟ",
+        "d": "Circulation only / ಕೇವಲ ರಕ್ತಸಂಚಲನ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 25,
+      "en": "Blood is mainly purified in the:",
+      "kn": "ರಕ್ತ ಮುಖ್ಯವಾಗಿ ಶುದ್ಧವಾಗುವುದು:",
+      "options": {
+        "a": "Liver only / ಕೇವಲ ಯಕೃತ್ತು",
+        "b": "Kidneys / ಮೂತ್ರಪಿಂಡಗಳು",
+        "c": "Stomach / ಜಠರ",
+        "d": "Skin only / ಕೇವಲ ಚರ್ಮ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 26,
+      "en": "Ozone layer protects us from:",
+      "kn": "ಓಝೋನ್ ಪದರ ನಮ್ಮನ್ನು ರಕ್ಷಿಸುವುದು:",
+      "options": {
+        "a": "Infrared only / ಕೇವಲ ಅತಿರಕ್ತ",
+        "b": "Ultraviolet (UV) rays / ನೇರಳಾತೀತ ಕಿರಣಗಳು",
+        "c": "Visible light only",
+        "d": "Radio waves only"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 27,
+      "en": "Which is a greenhouse gas?",
+      "kn": "ಯಾವುದು ಹಸಿರುಮನೆ ಅನಿಲ?",
+      "options": {
+        "a": "O₂",
+        "b": "N₂",
+        "c": "CO₂",
+        "d": "He"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 28,
+      "en": "A food chain generally starts with:",
+      "kn": "ಆಹಾರ ಸರಪಳಿ ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರಾರಂಭವಾಗುವುದು:",
+      "options": {
+        "a": "Consumer / ಗ್ರಾಹಕ",
+        "b": "Producer / ಉತ್ಪಾದಕ",
+        "c": "Decomposer / ವಿಭಜಕ",
+        "d": "Parasite / ಪರಾವಲಂಬಿ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 29,
+      "en": "Deficiency of Vitamin C causes:",
+      "kn": "ವಿಟಮಿನ್ C ಕೊರತೆಯಿಂದ ಉಂಟಾಗುವುದು:",
+      "options": {
+        "a": "Scurvy / ಸ್ಕರ್ವಿ",
+        "b": "Rickets / ರಿಕೆಟ್ಸ್",
+        "c": "Night blindness / ರಾತ್ರಿ ಕುರುಡು",
+        "d": "Beriberi / ಬೆರಿಬೆರಿ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 30,
+      "en": "Night blindness is caused by deficiency of:",
+      "kn": "ರಾತ್ರಿ ಕುರುಡು ಯಾವ ವಿಟಮಿನ್ ಕೊರತೆಯಿಂದ?",
+      "options": {
+        "a": "Vitamin A",
+        "b": "Vitamin B",
+        "c": "Vitamin C",
+        "d": "Vitamin D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 31,
+      "en": "SI unit of electric charge is:",
+      "kn": "ವಿದ್ಯುತ್ ಆವೇಶದ SI ಘಟಕ:",
+      "options": {
+        "a": "Ampere / ಆಂಪಿಯರ್",
+        "b": "Coulomb / ಕೂಲಂಬ್",
+        "c": "Volt / ವೋಲ್ಟ್",
+        "d": "Ohm / ಓಮ್"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 32,
+      "en": "Current is measured by:",
+      "kn": "ವಿದ್ಯುತ್ ಪ್ರವಾಹವನ್ನು ಅಳೆಯುವುದು:",
+      "options": {
+        "a": "Voltmeter / ವೋಲ್ಟ್‌ಮೀಟರ್",
+        "b": "Ammeter / ಆಮ್ಮೀಟರ್",
+        "c": "Barometer / ಬ್ಯಾರೋಮೀಟರ್",
+        "d": "Thermometer / ಥರ್ಮೋಮೀಟರ್"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 33,
+      "en": "Heat transfer in solids is mainly by:",
+      "kn": "ಘನ ಪದಾರ್ಥಗಳಲ್ಲಿ ಉಷ್ಣ ವರ್ಗಾವಣೆ ಮುಖ್ಯವಾಗಿ:",
+      "options": {
+        "a": "Conduction / ವಾಹನ",
+        "b": "Convection / ಸಂವಹನ",
+        "c": "Radiation only / ಕೇವಲ ವಿಕಿರಣ",
+        "d": "Evaporation / ಆವಿಯಾಗುವಿಕೆ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 34,
+      "en": "Boiling point of water at 1 atmosphere is:",
+      "kn": "1 ವಾತಾವರಣ ಒತ್ತಡದಲ್ಲಿ ನೀರಿನ ಕುದಿಯುವ ಬಿಂದು:",
+      "options": {
+        "a": "0°C",
+        "b": "50°C",
+        "c": "100°C",
+        "d": "−100°C"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 35,
+      "en": "Freezing point of pure water is:",
+      "kn": "ಶುದ್ಧ ನೀರಿನ ಹೆಪ್ಪುಗಟ್ಟುವ ಬಿಂದು:",
+      "options": {
+        "a": "0°C",
+        "b": "4°C",
+        "c": "100°C",
+        "d": "−100°C"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 36,
+      "en": "Softest among the following is:",
+      "kn": "ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಅತಿ ಮೃದುವಾದುದು:",
+      "options": {
+        "a": "Diamond / ವಜ್ರ",
+        "b": "Iron / ಕಬ್ಬಿಣ",
+        "c": "Talc / ಟಾಲ್ಕ್",
+        "d": "Steel / ಉಕ್ಕು"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 37,
+      "en": "Hardest natural substance is:",
+      "kn": "ಅತಿ ಗಟ್ಟಿಯಾದ ನೈಸರ್ಗಿಕ ಪದಾರ್ಥ:",
+      "options": {
+        "a": "Quartz / ಸ್ಫಟಿಕ",
+        "b": "Diamond / ವಜ್ರ",
+        "c": "Gold / ಚಿನ್ನ",
+        "d": "Iron / ಕಬ್ಬಿಣ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 38,
+      "en": "Brass is an alloy of:",
+      "kn": "ಹಿತ್ತಾಳೆ ಯಾವುದರ ಮಿಶ್ರಲೋಹ?",
+      "options": {
+        "a": "Copper + Tin / ತಾಮ್ರ + ತವರ",
+        "b": "Copper + Zinc / ತಾಮ್ರ + ಸತು",
+        "c": "Iron + Carbon / ಕಬ್ಬಿಣ + ಕಾರ್ಬನ್",
+        "d": "Lead + Tin / ಸೀಸ + ತವರ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 39,
+      "en": "Bronze is mainly an alloy of:",
+      "kn": "ಕಂಚು ಮುಖ್ಯವಾಗಿ ಯಾವುದರ ಮಿಶ್ರಲೋಹ?",
+      "options": {
+        "a": "Copper + Tin / ತಾಮ್ರ + ತವರ",
+        "b": "Copper + Zinc / ತಾಮ್ರ + ಸತು",
+        "c": "Iron + Carbon",
+        "d": "Aluminium + Magnesium"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 40,
+      "en": "Which of the following is a non-metal?",
+      "kn": "ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ಅಲೋಹ?",
+      "options": {
+        "a": "Sodium / ಸೋಡಿಯಂ",
+        "b": "Iron / ಕಬ್ಬಿಣ",
+        "c": "Sulphur / ಗಂಧಕ",
+        "d": "Copper / ತಾಮ್ರ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 41,
+      "en": "Human respiration mainly occurs in:",
+      "kn": "ಮಾನವನ ಉಸಿರಾಟ ಮುಖ್ಯವಾಗಿ ನಡೆಯುವುದು:",
+      "options": {
+        "a": "Heart / ಹೃದಯ",
+        "b": "Lungs / ಶ್ವಾಸಕೋಶಗಳು",
+        "c": "Kidney / ಮೂತ್ರಪಿಂಡ",
+        "d": "Liver / ಯಕೃತ್ತು"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 42,
+      "en": "Red blood cells mainly carry:",
+      "kn": "ಕೆಂಪು ರಕ್ತಕಣಗಳು ಮುಖ್ಯವಾಗಿ ಸಾಗಿಸುವುದು:",
+      "options": {
+        "a": "Oxygen / ಆಮ್ಲಜನಕ",
+        "b": "Urea mainly / ಮುಖ್ಯವಾಗಿ ಯೂರಿಯಾ",
+        "c": "Bile / ಪಿತ್ತ",
+        "d": "Hormones only / ಕೇವಲ ಹಾರ್ಮೋನ್‌ಗಳು"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 43,
+      "en": "Plasma is the:",
+      "kn": "ಪ್ಲಾಸ್ಮಾ ಎಂದರೆ:",
+      "options": {
+        "a": "Solid part of blood / ರಕ್ತದ ಘನ ಭಾಗ",
+        "b": "Liquid part of blood / ರಕ್ತದ ದ್ರವ ಭಾಗ",
+        "c": "Bone tissue / ಮೂಳೆ ಅಂಗಾಂಶ",
+        "d": "Nerve cell / ನರ ಕೋಶ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 44,
+      "en": "ISRO is related to:",
+      "kn": "ISRO ಸಂಬಂಧಿಸಿದ್ದು:",
+      "options": {
+        "a": "Space research / ಬಾಹ್ಯಾಕಾಶ ಸಂಶೋಧನೆ",
+        "b": "Banking / ಬ್ಯಾಂಕಿಂಗ್",
+        "c": "Sports / ಕ್ರೀಡೆ",
+        "d": "Agriculture only / ಕೇವಲ ಕೃಷಿ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 45,
+      "en": "SI unit of pressure is:",
+      "kn": "ಒತ್ತಡದ SI ಘಟಕ:",
+      "options": {
+        "a": "Newton / ನ್ಯೂಟನ್",
+        "b": "Pascal / ಪ್ಯಾಸ್ಕಲ್",
+        "c": "Joule / ಜೌಲ್",
+        "d": "Watt / ವಾಟ್"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 46,
+      "en": "1 horsepower is approximately equal to:",
+      "kn": "1 ಹಾರ್ಸ್‌ಪವರ್ ಸುಮಾರು ಸಮ:",
+      "options": {
+        "a": "746 W",
+        "b": "100 W",
+        "c": "1000 W",
+        "d": "76 W"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 47,
+      "en": "According to law of reflection:",
+      "kn": "ಪ್ರತಿಫಲನ ನಿಯಮದ ಪ್ರಕಾರ:",
+      "options": {
+        "a": "Angle of incidence is always 90°",
+        "b": "Angle of incidence = angle of reflection / ಪತನ ಕೋನ = ಪ್ರತಿಫಲನ ಕೋನ",
+        "c": "Angle of incidence is always 0°",
+        "d": "It equals refracted angle only"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 48,
+      "en": "A rainbow is mainly due to:",
+      "kn": "ಕಾಮನಬಿಲ್ಲು ಮುಖ್ಯವಾಗಿ ಉಂಟಾಗುವುದು:",
+      "options": {
+        "a": "Reflection only / ಕೇವಲ ಪ್ರತಿಫಲನ",
+        "b": "Dispersion, refraction and reflection of light / ಬೆಳಕಿನ ವಿಕೀರ್ಣ, ವಕ್ರೀಭವನ ಮತ್ತು ಪ್ರತಿಫಲನ",
+        "c": "Diffraction only / ಕೇವಲ ವಿವರ್ತನ",
+        "d": "Polarization only / ಕೇವಲ ಧ್ರುವೀಕರಣ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 49,
+      "en": "A bar magnet has poles called:",
+      "kn": "ಅಯಸ್ಕಾಂತದ ಧ್ರುವಗಳನ್ನು ಕರೆಯುವುದು:",
+      "options": {
+        "a": "North and South / ಉತ್ತರ ಮತ್ತು ದಕ್ಷಿಣ",
+        "b": "East and West / ಪೂರ್ವ ಮತ್ತು ಪಶ್ಚಿಮ",
+        "c": "Positive and Negative only",
+        "d": "Hot and Cold"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 50,
+      "en": "The Earth behaves approximately like a:",
+      "kn": "ಭೂಮಿ ಅಂದಾಜು ಹೀಗೆ ವರ್ತಿಸುತ್ತದೆ:",
+      "options": {
+        "a": "Perfect insulator / ಪರಿಪೂರ್ಣ ನಿರೋಧಕ",
+        "b": "Huge magnet / ದೊಡ್ಡ ಅಯಸ್ಕಾಂತ",
+        "c": "Non-magnetic body always",
+        "d": "Pure electric charge only"
+      },
+      "answer": "b"
+    }
+  ]
+}

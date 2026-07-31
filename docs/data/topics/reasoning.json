@@ -1,0 +1,609 @@
+{
+  "id": "reasoning",
+  "title_en": "Reasoning",
+  "title_kn": "ತರ್ಕಶಕ್ತಿ",
+  "count": 50,
+  "exam_weight_hint": 20,
+  "questions": [
+    {
+      "id": 1,
+      "en": "Book is to Reading as Fork is to:",
+      "kn": "ಪುಸ್ತಕ : ಓದುವಿಕೆ :: ಫೋರ್ಕ್ : ?",
+      "options": {
+        "a": "Drawing / ಚಿತ್ರ ಬರೆಯುವುದು",
+        "b": "Writing / ಬರೆಯುವುದು",
+        "c": "Eating / ತಿನ್ನುವುದು",
+        "d": "Cooking / ಅಡುಗೆ ಮಾಡುವುದು"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 2,
+      "en": "Doctor is to Hospital as Teacher is to:",
+      "kn": "ವೈದ್ಯ : ಆಸ್ಪತ್ರೆ :: ಶಿಕ್ಷಕ : ?",
+      "options": {
+        "a": "School / ಶಾಲೆ",
+        "b": "Clinic / ಕ್ಲಿನಿಕ್",
+        "c": "Court / ನ್ಯಾಯಾಲಯ",
+        "d": "Office / ಕಚೇರಿ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 3,
+      "en": "Pen is to Poet as Needle is to:",
+      "kn": "ಪೆನ್ : ಕವಿ :: ಸೂಜಿ : ?",
+      "options": {
+        "a": "Thread / ದಾರ",
+        "b": "Button / ಬಟನ್",
+        "c": "Tailor / ದರ್ಜಿ",
+        "d": "Cloth / ಬಟ್ಟೆ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 4,
+      "en": "Find the odd one out:",
+      "kn": "ಬೇರೆಯಾದದ್ದನ್ನು ಗುರುತಿಸಿ:",
+      "options": {
+        "a": "Apple / ಸೇಬು",
+        "b": "Mango / ಮಾವು",
+        "c": "Potato / ಆಲೂಗಡ್ಡೆ",
+        "d": "Banana / ಬಾಳೆಹಣ್ಣು"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 5,
+      "en": "Find the odd one out:",
+      "kn": "ಬೇರೆಯಾದದ್ದನ್ನು ಗುರುತಿಸಿ:",
+      "options": {
+        "a": "Circle / ವೃತ್ತ",
+        "b": "Triangle / ತ್ರಿಕೋನ",
+        "c": "Square / ಚೌಕ",
+        "d": "Rectangle / ಆಯತ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 6,
+      "en": "Complete the series: 2, 6, 12, 20, 30, ?",
+      "kn": "ಸರಣಿಯನ್ನು ಪೂರೈಸಿ: 2, 6, 12, 20, 30, ?",
+      "options": {
+        "a": "40",
+        "b": "42",
+        "c": "44",
+        "d": "46"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 7,
+      "en": "Complete the series: 5, 10, 20, 40, ?",
+      "kn": "ಸರಣಿಯನ್ನು ಪೂರೈಸಿ: 5, 10, 20, 40, ?",
+      "options": {
+        "a": "60",
+        "b": "70",
+        "c": "80",
+        "d": "90"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 8,
+      "en": "Complete the letter series: A, C, F, J, O, ?",
+      "kn": "ಅಕ್ಷರ ಸರಣಿಯನ್ನು ಪೂರೈಸಿ: A, C, F, J, O, ?",
+      "options": {
+        "a": "S",
+        "b": "T",
+        "c": "U",
+        "d": "V"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 9,
+      "en": "If in a certain code, CAT is written as DBU, how is DOG written?",
+      "kn": "ಒಂದು ಸಂಕೇತದಲ್ಲಿ CAT ಅನ್ನು DBU ಎಂದು ಬರೆದರೆ, DOG ಅನ್ನು ಹೇಗೆ ಬರೆಯುವರು?",
+      "options": {
+        "a": "EPH",
+        "b": "EPI",
+        "c": "FPH",
+        "d": "DPH"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 10,
+      "en": "If PAPER is coded as OZODQ, how is PEN coded?",
+      "kn": "PAPER ಅನ್ನು OZODQ ಎಂದು ಸಂಕೇತಿಸಿದರೆ, PEN ಅನ್ನು ಹೇಗೆ ಸಂಕೇತಿಸುವರು?",
+      "options": {
+        "a": "ODM",
+        "b": "QFO",
+        "c": "ODN",
+        "d": "QFN"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 11,
+      "en": "If in a code, RAIN is written as SBJO, how is DROP written?",
+      "kn": "ಒಂದು ಸಂಕೇತದಲ್ಲಿ RAIN ಅನ್ನು SBJO ಎಂದು ಬರೆದರೆ, DROP ಅನ್ನು ಹೇಗೆ ಬರೆಯುವರು?",
+      "options": {
+        "a": "ESPQ",
+        "b": "ESQP",
+        "c": "EQSP",
+        "d": "FSPQ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 12,
+      "en": "Pointing to a man, a woman said, “His mother is the only daughter of my mother.” How is the woman related to the man?",
+      "kn": "ಒಬ್ಬ ಪುರುಷನನ್ನು ತೋರಿಸಿ ಒಬ್ಬ ಮಹಿಳೆ ಹೇಳಿದಳು, “ಅವನ ತಾಯಿ ನನ್ನ ತಾಯಿಯ ಏಕೈಕ ಮಗಳು.” ಆ ಮಹಿಳೆ ಆ ಪುರುಷನಿಗೆ ಯಾವ ಸಂಬಂಧ?",
+      "options": {
+        "a": "Sister / ಸಹೋದರಿ",
+        "b": "Mother / ತಾಯಿ",
+        "c": "Aunt / ಚಿಕ್ಕಮ್ಮ",
+        "d": "Wife / ಪತ್ನಿ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 13,
+      "en": "A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?",
+      "kn": "A ಎಂಬುವವನು B ಯ ಸಹೋದರ. B ಎಂಬುವವಳು C ಯ ಸಹೋದರಿ. C ಎಂಬುವವನು D ಯ ತಂದೆ. A ಯು D ಗೆ ಯಾವ ಸಂಬಂಧ?",
+      "options": {
+        "a": "Father / ತಂದೆ",
+        "b": "Uncle / ಚಿಕ್ಕಪ್ಪ/ದೊಡ್ಡಪ್ಪ",
+        "c": "Brother / ಸಹೋದರ",
+        "d": "Grandfather / ಅಜ್ಜ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 14,
+      "en": "Introducing a boy, a girl said, “He is the son of the daughter of the father of my uncle.” How is the boy related to the girl?",
+      "kn": "ಒಬ್ಬ ಹುಡುಗನನ್ನು ಪರಿಚಯಿಸುತ್ತಾ ಒಬ್ಬ ಹುಡುಗಿ ಹೇಳಿದಳು, “ಅವನು ನನ್ನ ಚಿಕ್ಕಪ್ಪನ ತಂದೆಯ ಮಗಳ ಮಗ.” ಆ ಹುಡುಗ ಆ ಹುಡುಗಿಗೆ ಯಾವ ಸಂಬಂಧ?",
+      "options": {
+        "a": "Brother / ಸಹೋದರ",
+        "b": "Uncle / ಚಿಕ್ಕಪ್ಪ",
+        "c": "Nephew / ಸೋದರಳಿಯ",
+        "d": "Cousin / ಮಾವನ ಮಗ/ಚಿಕ್ಕಪ್ಪನ ಮಗ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 15,
+      "en": "A man walks 5 km north, then turns right and walks 3 km, then turns right and walks 5 km. How far is he from the starting point?",
+      "kn": "ಒಬ್ಬ ವ್ಯಕ್ತಿ 5 ಕಿ.ಮೀ ಉತ್ತರಕ್ಕೆ ನಡೆದು, ಬಲಕ್ಕೆ ತಿರುಗಿ 3 ಕಿ.ಮೀ ನಡೆದು, ಮತ್ತೆ ಬಲಕ್ಕೆ ತಿರುಗಿ 5 ಕಿ.ಮೀ ನಡೆದನು. ಅವನು ಆರಂಭ ಬಿಂದುವಿನಿಂದ ಎಷ್ಟು ದೂರ?",
+      "options": {
+        "a": "3 km / 3 ಕಿ.ಮೀ",
+        "b": "5 km / 5 ಕಿ.ಮೀ",
+        "c": "8 km / 8 ಕಿ.ಮೀ",
+        "d": "13 km / 13 ಕಿ.ಮೀ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 16,
+      "en": "If you face east and turn left, then turn right, then turn right again, which direction are you facing?",
+      "kn": "ನೀವು ಪೂರ್ವಕ್ಕೆ ಮುಖ ಮಾಡಿ ಎಡಕ್ಕೆ ತಿರುಗಿ, ನಂತರ ಬಲಕ್ಕೆ ತಿರುಗಿ, ಮತ್ತೆ ಬಲಕ್ಕೆ ತಿರುಗಿದರೆ, ನೀವು ಯಾವ ದಿಕ್ಕಿಗೆ ಮುಖ ಮಾಡುತ್ತೀರಿ?",
+      "options": {
+        "a": "East / ಪೂರ್ವ",
+        "b": "West / ಪಶ್ಚಿಮ",
+        "c": "North / ಉತ್ತರ",
+        "d": "South / ದಕ್ಷಿಣ"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 17,
+      "en": "A is facing north. After walking some distance he turns left, then turns right, then turns left again. Which direction is he facing now?",
+      "kn": "A ಉತ್ತರಕ್ಕೆ ಮುಖ ಮಾಡಿದ್ದಾನೆ. ಸ್ವಲ್ಪ ನಡೆದ ನಂತರ ಎಡಕ್ಕೆ ತಿರುಗಿ, ನಂತರ ಬಲಕ್ಕೆ ತಿರುಗಿ, ಮತ್ತೆ ಎಡಕ್ಕೆ ತಿರುಗುತ್ತಾನೆ. ಈಗ ಅವನು ಯಾವ ದಿಕ್ಕಿಗೆ ಮುಖ ಮಾಡಿದ್ದಾನೆ?",
+      "options": {
+        "a": "North / ಉತ್ತರ",
+        "b": "South / ದಕ್ಷಿಣ",
+        "c": "East / ಪೂರ್ವ",
+        "d": "West / ಪಶ್ಚಿಮ"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 18,
+      "en": "Statements: All dogs are animals. All animals have four legs. Conclusions: I. All dogs have four legs. II. Some animals are dogs. Which conclusion follows?",
+      "kn": "ಹೇಳಿಕೆಗಳು: ಎಲ್ಲ ನಾಯಿಗಳು ಪ್ರಾಣಿಗಳು. ಎಲ್ಲ ಪ್ರಾಣಿಗಳಿಗೆ ನಾಲ್ಕು ಕಾಲುಗಳಿವೆ. ನಿರ್ಣಯಗಳು: I. ಎಲ್ಲ ನಾಯಿಗಳಿಗೆ ನಾಲ್ಕು ಕಾಲುಗಳಿವೆ. II. ಕೆಲವು ಪ್ರಾಣಿಗಳು ನಾಯಿಗಳು. ಯಾವ ನಿರ್ಣಯ ಸರಿ?",
+      "options": {
+        "a": "Only I / ಕೇವಲ I",
+        "b": "Only II / ಕೇವಲ II",
+        "c": "Both I and II / I ಮತ್ತು II ಎರಡೂ",
+        "d": "Neither / ಯಾವುದೂ ಅಲ್ಲ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 19,
+      "en": "Statements: Some books are pens. All pens are pencils. Conclusions: I. Some books are pencils. II. All books are pencils. Which follows?",
+      "kn": "ಹೇಳಿಕೆಗಳು: ಕೆಲವು ಪುಸ್ತಕಗಳು ಪೆನ್‌ಗಳು. ಎಲ್ಲ ಪೆನ್‌ಗಳು ಪೆನ್ಸಿಲ್‌ಗಳು. ನಿರ್ಣಯಗಳು: I. ಕೆಲವು ಪುಸ್ತಕಗಳು ಪೆನ್ಸಿಲ್‌ಗಳು. II. ಎಲ್ಲ ಪುಸ್ತಕಗಳು ಪೆನ್ಸಿಲ್‌ಗಳು. ಯಾವುದು ಸರಿ?",
+      "options": {
+        "a": "Only I / ಕೇವಲ I",
+        "b": "Only II / ಕೇವಲ II",
+        "c": "Both / ಎರಡೂ",
+        "d": "Neither / ಯಾವುದೂ ಅಲ್ಲ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 20,
+      "en": "Statements: All mangoes are fruits. Some fruits are sweet. Conclusions: I. Some mangoes are sweet. II. All sweet things are mangoes. Which follows?",
+      "kn": "ಹೇಳಿಕೆಗಳು: ಎಲ್ಲ ಮಾವಿನಹಣ್ಣುಗಳು ಹಣ್ಣುಗಳು. ಕೆಲವು ಹಣ್ಣುಗಳು ಸಿಹಿ. ನಿರ್ಣಯಗಳು: I. ಕೆಲವು ಮಾವಿನಹಣ್ಣುಗಳು ಸಿಹಿ. II. ಎಲ್ಲ ಸಿಹಿ ವಸ್ತುಗಳು ಮಾವಿನಹಣ್ಣುಗಳು. ಯಾವುದು ಸರಿ?",
+      "options": {
+        "a": "Only I / ಕೇವಲ I",
+        "b": "Only II / ಕೇವಲ II",
+        "c": "Both / ಎರಡೂ",
+        "d": "Neither / ಯಾವುದೂ ಅಲ್ಲ"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 21,
+      "en": "Which diagram best represents the relationship among Women, Mothers and Engineers?",
+      "kn": "ಮಹಿಳೆಯರು, ತಾಯಂದಿರು ಮತ್ತು ಎಂಜಿನಿಯರ್‌ಗಳ ಸಂಬಂಧವನ್ನು ಯಾವ ರೇಖಾಚಿತ್ರ ಉತ್ತಮವಾಗಿ ತೋರಿಸುತ್ತದೆ?",
+      "options": {
+        "a": "Three separate circles / ಮೂರು ಪ್ರತ್ಯೇಕ ವೃತ್ತಗಳು",
+        "b": "Mothers inside Women; Engineers overlapping both / ತಾಯಂದಿರು ಮಹಿಳೆಯರೊಳಗೆ; ಎಂಜಿನಿಯರ್‌ಗಳು ಎರಡನ್ನೂ ಛೇದಿಸುವುದು",
+        "c": "All three identical circles / ಮೂರೂ ಸಮಾನ ವೃತ್ತಗಳು",
+        "d": "Engineers inside Mothers inside Women / ಎಂಜಿನಿಯರ್‌ಗಳು ತಾಯಂದಿರೊಳಗೆ, ಅವರು ಮಹಿಳೆಯರೊಳಗೆ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 22,
+      "en": "Which Venn diagram represents Dogs, Cats and Animals?",
+      "kn": "ನಾಯಿಗಳು, ಬೆಕ್ಕುಗಳು ಮತ್ತು ಪ್ರಾಣಿಗಳನ್ನು ಯಾವ ವೆನ್ ರೇಖಾಚಿತ್ರ ಪ್ರತಿನಿಧಿಸುತ್ತದೆ?",
+      "options": {
+        "a": "Two circles inside a bigger circle / ದೊಡ್ಡ ವೃತ್ತದೊಳಗೆ ಎರಡು ವೃತ್ತಗಳು",
+        "b": "Three overlapping circles / ಮೂರು ಛೇದಿಸುವ ವೃತ್ತಗಳು",
+        "c": "Three separate circles / ಮೂರು ಪ್ರತ್ಯೇಕ ವೃತ್ತಗಳು",
+        "d": "One circle only / ಕೇವಲ ಒಂದು ವೃತ್ತ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 23,
+      "en": "Statement: “Use our product to get fair skin within 15 days.” Assumption: Fair skin is desired by people. Is the assumption implicit?",
+      "kn": "ಹೇಳಿಕೆ: “ನಮ್ಮ ಉತ್ಪನ್ನವನ್ನು ಬಳಸಿ 15 ದಿನಗಳಲ್ಲಿ ನಯವಾದ ಚರ್ಮ ಪಡೆಯಿರಿ.” ಊಹೆ: ಜನರಿಗೆ ನಯವಾದ ಚರ್ಮ ಬೇಕು. ಈ ಊಹೆ ಅಂತರ್ಗತವೇ?",
+      "options": {
+        "a": "Yes / ಹೌದು",
+        "b": "No / ಇಲ್ಲ",
+        "c": "Either / ಯಾವುದಾದರೂ",
+        "d": "Data inadequate / ಡೇಟಾ ಅಪರ್ಯಾಪ್ತ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 24,
+      "en": "Statement: “Please switch off the lights when not in use.” Assumption: Lights consume electricity. Is the assumption implicit?",
+      "kn": "ಹೇಳಿಕೆ: “ಬಳಕೆಯಲ್ಲಿಲ್ಲದಾಗ ದೀಪಗಳನ್ನು ಆರಿಸಿ.” ಊಹೆ: ದೀಪಗಳು ವಿದ್ಯುತ್ ಬಳಸುತ್ತವೆ. ಈ ಊಹೆ ಅಂತರ್ಗತವೇ?",
+      "options": {
+        "a": "Yes / ಹೌದು",
+        "b": "No / ಇಲ್ಲ",
+        "c": "Either / ಯಾವುದಾದರೂ",
+        "d": "Data inadequate / ಡೇಟಾ ಅಪರ್ಯಾಪ್ತ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 25,
+      "en": "If + means ×, × means −, − means ÷ and ÷ means +, then 8 + 4 − 4 × 2 ÷ 6 = ?",
+      "kn": "+ ಎಂದರೆ ×, × ಎಂದರೆ −, − ಎಂದರೆ ÷ ಮತ್ತು ÷ ಎಂದರೆ + ಆದರೆ, 8 + 4 − 4 × 2 ÷ 6 = ?",
+      "options": {
+        "a": "10",
+        "b": "12",
+        "c": "14",
+        "d": "16"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 26,
+      "en": "If A means +, B means −, C means × and D means ÷, then 18 C 2 A 6 B 4 = ?",
+      "kn": "A ಎಂದರೆ +, B ಎಂದರೆ −, C ಎಂದರೆ × ಮತ್ತು D ಎಂದರೆ ÷ ಆದರೆ, 18 C 2 A 6 B 4 = ?",
+      "options": {
+        "a": "36",
+        "b": "38",
+        "c": "40",
+        "d": "42"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 27,
+      "en": "Rearrange the letters of “LISTEN” to form a meaningful English word. Which is correct?",
+      "kn": "“LISTEN” ಅಕ್ಷರಗಳನ್ನು ಮರುಜೋಡಿಸಿ ಅರ್ಥಪೂರ್ಣ ಇಂಗ್ಲಿಷ್ ಪದ ಮಾಡಿ. ಸರಿಯಾದುದು ಯಾವುದು?",
+      "options": {
+        "a": "SILENT",
+        "b": "INLETS",
+        "c": "Both a and b / a ಮತ್ತು b ಎರಡೂ",
+        "d": "None / ಯಾವುದೂ ಅಲ್ಲ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 28,
+      "en": "Unscramble: “RCAE” to form a meaningful word related to vehicles.",
+      "kn": "“RCAE” ಅನ್ನು ವಾಹನಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಅರ್ಥಪೂರ್ಣ ಪದವಾಗಿ ಜೋಡಿಸಿ.",
+      "options": {
+        "a": "CARE",
+        "b": "RACE",
+        "c": "ACRE",
+        "d": "None / ಯಾವುದೂ ಅಲ್ಲ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 29,
+      "en": "Find the next number: 1, 4, 9, 16, 25, ?",
+      "kn": "ಮುಂದಿನ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ: 1, 4, 9, 16, 25, ?",
+      "options": {
+        "a": "30",
+        "b": "35",
+        "c": "36",
+        "d": "49"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 30,
+      "en": "Find the next term: 3, 9, 27, 81, ?",
+      "kn": "ಮುಂದಿನ ಪದವನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ: 3, 9, 27, 81, ?",
+      "options": {
+        "a": "162",
+        "b": "243",
+        "c": "324",
+        "d": "405"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 31,
+      "en": "Eye is to See as Ear is to:",
+      "kn": "ಕಣ್ಣು : ನೋಡುವುದು :: ಕಿವಿ : ?",
+      "options": {
+        "a": "Smell / ವಾಸನೆ",
+        "b": "Hear / ಕೇಳುವುದು",
+        "c": "Taste / ರುಚಿ",
+        "d": "Touch / ಸ್ಪರ್ಶ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 32,
+      "en": "Find the odd one out:",
+      "kn": "ಬೇರೆಯಾದದ್ದನ್ನು ಗುರುತಿಸಿ:",
+      "options": {
+        "a": "Mercury / ಪಾದರಸ",
+        "b": "Mars / ಮಂಗಳ",
+        "c": "Jupiter / ಗುರು",
+        "d": "Saturn / ಶನಿ"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 33,
+      "en": "If ‘P’ means ‘÷’, ‘Q’ means ‘×’, ‘R’ means ‘+’ and ‘S’ means ‘−’, then 20 R 4 P 2 Q 3 S 5 = ?",
+      "kn": "‘P’ ಎಂದರೆ ‘÷’, ‘Q’ ಎಂದರೆ ‘×’, ‘R’ ಎಂದರೆ ‘+’ ಮತ್ತು ‘S’ ಎಂದರೆ ‘−’ ಆದರೆ, 20 R 4 P 2 Q 3 S 5 = ?",
+      "options": {
+        "a": "19",
+        "b": "21",
+        "c": "23",
+        "d": "25"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 34,
+      "en": "A is taller than B but shorter than C. D is shorter than B. Who is the tallest?",
+      "kn": "A ಎಂಬುವವನು B ಗಿಂತ ಎತ್ತರ, ಆದರೆ C ಗಿಂತ ಕಡಿಮೆ ಎತ್ತರ. D ಎಂಬುವವನು B ಗಿಂತ ಕಡಿಮೆ ಎತ್ತರ. ಯಾರು ಅತಿ ಎತ್ತರ?",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 35,
+      "en": "In a row of students, Ram is 7th from the left and 12th from the right. How many students are there in the row?",
+      "kn": "ವಿದ್ಯಾರ್ಥಿಗಳ ಸಾಲಿನಲ್ಲಿ ರಾಮ್ ಎಡದಿಂದ 7ನೇ ಮತ್ತು ಬಲದಿಂದ 12ನೇ. ಸಾಲಿನಲ್ಲಿ ಎಷ್ಟು ವಿದ್ಯಾರ್ಥಿಗಳಿದ್ದಾರೆ?",
+      "options": {
+        "a": "17",
+        "b": "18",
+        "c": "19",
+        "d": "20"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 36,
+      "en": "If the day before yesterday was Thursday, what day will it be the day after tomorrow?",
+      "kn": "ನಿನ್ನೆ ಹಿಂದಿನ ದಿನ ಗುರುವಾರವಾಗಿದ್ದರೆ, ನಾಳೆ ಮುಂದಿನ ದಿನ ಯಾವ ವಾರ?",
+      "options": {
+        "a": "Sunday / ಭಾನುವಾರ",
+        "b": "Monday / ಸೋಮವಾರ",
+        "c": "Saturday / ಶನಿವಾರ",
+        "d": "Friday / ಶುಕ್ರವಾರ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 37,
+      "en": "Complete the analogy: 8 : 64 :: 9 : ?",
+      "kn": "ಸಾದೃಶ್ಯವನ್ನು ಪೂರೈಸಿ: 8 : 64 :: 9 : ?",
+      "options": {
+        "a": "72",
+        "b": "81",
+        "c": "90",
+        "d": "99"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 38,
+      "en": "Complete the analogy: 7 : 56 :: 9 : ?",
+      "kn": "ಸಾದೃಶ್ಯವನ್ನು ಪೂರೈಸಿ: 7 : 56 :: 9 : ?",
+      "options": {
+        "a": "72",
+        "b": "81",
+        "c": "90",
+        "d": "99"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 39,
+      "en": "If SOUTH is coded as 1-2-3-4-5 and NORTH is coded as 6-2-7-4-5, how is SHORT coded?",
+      "kn": "SOUTH ಅನ್ನು 1-2-3-4-5 ಮತ್ತು NORTH ಅನ್ನು 6-2-7-4-5 ಎಂದು ಸಂಕೇತಿಸಿದರೆ, SHORT ಅನ್ನು ಹೇಗೆ ಸಂಕೇತಿಸುವರು?",
+      "options": {
+        "a": "1-5-2-7-4",
+        "b": "1-5-7-2-4",
+        "c": "1-2-5-7-4",
+        "d": "5-1-2-7-4"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 40,
+      "en": "How many 9’s are there in the following series which are immediately preceded by 3 but not immediately followed by 4? 3 9 4 5 3 9 6 3 9 4 3 9 2",
+      "kn": "ಕೆಳಗಿನ ಸರಣಿಯಲ್ಲಿ 3 ರ ನಂತರ ಬಂದು 4 ರ ಮುಂಚೆ ಬಾರದಂತಹ ಎಷ್ಟು 9 ಗಳಿವೆ? 3 9 4 5 3 9 6 3 9 4 3 9 2",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 41,
+      "en": "Statements: No bird is an animal. All animals are mammals. Conclusions: I. No bird is a mammal. II. Some mammals are animals. Which follows?",
+      "kn": "ಹೇಳಿಕೆಗಳು: ಯಾವ ಪಕ್ಷಿಯೂ ಪ್ರಾಣಿ ಅಲ್ಲ. ಎಲ್ಲ ಪ್ರಾಣಿಗಳು ಸಸ್ತನಿಗಳು. ನಿರ್ಣಯಗಳು: I. ಯಾವ ಪಕ್ಷಿಯೂ ಸಸ್ತನಿ ಅಲ್ಲ. II. ಕೆಲವು ಸಸ್ತನಿಗಳು ಪ್ರಾಣಿಗಳು. ಯಾವುದು ಸರಿ?",
+      "options": {
+        "a": "Only I / ಕೇವಲ I",
+        "b": "Only II / ಕೇವಲ II",
+        "c": "Both / ಎರಡೂ",
+        "d": "Neither / ಯಾವುದೂ ಅಲ್ಲ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 42,
+      "en": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+      "kn": "ಗಡಿಯಾರ 3:15 ತೋರಿಸುತ್ತಿದೆ. ಗಂಟೆ ಮತ್ತು ನಿಮಿಷದ ಮುಳ್ಳುಗಳ ನಡುವಿನ ಕೋನ ಎಷ್ಟು?",
+      "options": {
+        "a": "0°",
+        "b": "7.5°",
+        "c": "15°",
+        "d": "22.5°"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 43,
+      "en": "Find the missing number: 2, 3, 5, 7, 11, ?, 17",
+      "kn": "ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ: 2, 3, 5, 7, 11, ?, 17",
+      "options": {
+        "a": "12",
+        "b": "13",
+        "c": "14",
+        "d": "15"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 44,
+      "en": "If all the vowels are removed from the word “COMPUTER”, which letters remain?",
+      "kn": "“COMPUTER” ಪದದಿಂದ ಎಲ್ಲ ಸ್ವರಗಳನ್ನು ತೆಗೆದರೆ ಉಳಿಯುವ ಅಕ್ಷರಗಳು ಯಾವುವು?",
+      "options": {
+        "a": "CMPTR",
+        "b": "CMPTRU",
+        "c": "CMTR",
+        "d": "CMPT"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 45,
+      "en": "Six friends A, B, C, D, E and F are sitting in a circle facing the centre. A is between D and B. F is between E and C. E is to the immediate left of D. Who is to the immediate right of B?",
+      "kn": "ಆರು ಸ್ನೇಹಿತರು A, B, C, D, E ಮತ್ತು F ವೃತ್ತದಲ್ಲಿ ಕೇಂದ್ರಕ್ಕೆ ಮುಖ ಮಾಡಿ ಕುಳಿತಿದ್ದಾರೆ. A ಯು D ಮತ್ತು B ನಡುವೆ. F ಯು E ಮತ್ತು C ನಡುವೆ. E ಯು D ಯ ತಕ್ಷಣ ಎಡಕ್ಕೆ. B ಯ ತಕ್ಷಣ ಬಲಕ್ಕೆ ಯಾರು?",
+      "options": {
+        "a": "C",
+        "b": "F",
+        "c": "E",
+        "d": "A"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 46,
+      "en": "If 1st January is a Friday, what day will be 1st March of the same non-leap year?",
+      "kn": "ಜನವರಿ 1 ಶುಕ್ರವಾರವಾಗಿದ್ದರೆ, ಅದೇ ಅಧಿಕ ವರ್ಷವಲ್ಲದ ವರ್ಷದ ಮಾರ್ಚ್ 1 ಯಾವ ವಾರ?",
+      "options": {
+        "a": "Friday / ಶುಕ್ರವಾರ",
+        "b": "Saturday / ಶನಿವಾರ",
+        "c": "Sunday / ಭಾನುವಾರ",
+        "d": "Monday / ಸೋಮವಾರ"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 47,
+      "en": "Complete the series: AZ, BY, CX, ?",
+      "kn": "ಸರಣಿಯನ್ನು ಪೂರೈಸಿ: AZ, BY, CX, ?",
+      "options": {
+        "a": "DW",
+        "b": "DV",
+        "c": "EW",
+        "d": "DU"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 48,
+      "en": "If ‘+’ means ‘minus’, ‘×’ means ‘divided by’, ‘÷’ means ‘plus’ and ‘−’ means ‘multiplied by’, then 15 − 3 + 10 × 5 ÷ 5 = ?",
+      "kn": "‘+’ ಎಂದರೆ ಕಳೆಯುವುದು, ‘×’ ಎಂದರೆ ಭಾಗಿಸುವುದು, ‘÷’ ಎಂದರೆ ಕೂಡಿಸುವುದು ಮತ್ತು ‘−’ ಎಂದರೆ ಗುಣಿಸುವುದು ಆದರೆ, 15 − 3 + 10 × 5 ÷ 5 = ?",
+      "options": {
+        "a": "40",
+        "b": "45",
+        "c": "48",
+        "d": "52"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 49,
+      "en": "Find the odd one out:",
+      "kn": "ಬೇರೆಯಾದದ್ದನ್ನು ಗುರುತಿಸಿ:",
+      "options": {
+        "a": "121",
+        "b": "144",
+        "c": "169",
+        "d": "180"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 50,
+      "en": "A man said to a lady, “Your mother’s husband’s sister is my aunt.” How is the lady related to the man?",
+      "kn": "ಒಬ್ಬ ಪುರುಷ ಒಬ್ಬ ಮಹಿಳೆಗೆ ಹೇಳಿದನು, “ನಿನ್ನ ತಾಯಿಯ ಗಂಡನ ಸಹೋದರಿ ನನ್ನ ಚಿಕ್ಕಮ್ಮ/ದೊಡ್ಡಮ್ಮ.” ಆ ಮಹಿಳೆ ಆ ಪುರುಷನಿಗೆ ಯಾವ ಸಂಬಂಧ?",
+      "options": {
+        "a": "Daughter / ಮಗಳು",
+        "b": "Sister / ಸಹೋದರಿ",
+        "c": "Mother / ತಾಯಿ",
+        "d": "Aunt / ಚಿಕ್ಕಮ್ಮ"
+      },
+      "answer": "b"
+    }
+  ]
+}

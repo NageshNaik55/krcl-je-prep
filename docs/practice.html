@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Practice MCQs — JE Civil Prep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="./index.html"><span class="brand-mark">JE</span> Civil Prep</a>
+      <nav class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./practice.html" class="active">Practice MCQs</a>
+        <a href="./mock.html">Full Mock</a>
+        <a href="./notes.html">Notes</a>
+        <a href="./downloads.html">PDFs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap section">
+    <h1 class="section-title">Topic-wise Practice</h1>
+    <p class="section-sub">500 bilingual MCQs · instant feedback after each answer · pick any topic</p>
+
+    <div id="topic-cards" class="cards"></div>
+    <div id="quiz-root" class="hidden" style="margin-top:1.2rem"></div>
+  </main>
+
+  <footer class="footer"><div class="wrap">JE Civil Prep · Practice</div></footer>
+  <script src="./assets/js/common.js"></script>
+  <script src="./assets/js/quiz.js"></script>
+  <script>
+    const cards = document.getElementById("topic-cards");
+    const root = document.getElementById("quiz-root");
+
+    JE.fetchJSON("data/topics.json")
+      .then((data) => {
+        cards.innerHTML = data.topics
+          .map(
+            (t) => `<article class="card">
+              <h3>${t.title_en}</h3>
+              <p>${t.title_kn}<br/><span class="muted">${t.count} questions</span></p>
+              <button class="btn btn-primary" type="button" data-file="${t.file}" data-title="${t.title_en}">Start</button>
+            </article>`
+          )
+          .join("");
+      })
+      .catch((err) => {
+        cards.innerHTML = `<div class="alert">Failed to load topics. Serve over HTTP (GitHub Pages / local server).</div>`;
+        console.error(err);
+      });
+
+    cards.addEventListener("click", async (e) => {
+      const btn = e.target.closest("button[data-file]");
+      if (!btn) return;
+      try {
+        // topics.json stores paths like "topics/science.json"
+        const data = await JE.fetchJSON("data/" + btn.dataset.file);
+        root.classList.remove("hidden");
+        createQuiz({
+          root,
+          questions: data.questions,
+          mode: "practice",
+          marksPerQ: 3,
+          negative: 1,
+          title: data.title_en,
+        });
+        root.scrollIntoView({ behavior: "smooth" });
+      } catch (err) {
+        alert("Could not load topic: " + err.message);
+        console.error(err);
+      }
+    });
+  </script>
+</body>
+</html>

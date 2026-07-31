@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "id": "science",
+      "title_en": "General Science",
+      "title_kn": "ಸಾಮಾನ್ಯ ವಿಜ್ಞಾನ",
+      "count": 50,
+      "file": "topics/science.json"
+    },
+    {
+      "id": "maths",
+      "title_en": "Basic Mathematics",
+      "title_kn": "ಮೂಲಭೂತ ಗಣಿತ",
+      "count": 50,
+      "file": "topics/maths.json"
+    },
+    {
+      "id": "ga",
+      "title_en": "General Awareness",
+      "title_kn": "ಸಾಮಾನ್ಯ ಜ್ಞಾನ",
+      "count": 50,
+      "file": "topics/ga.json"
+    },
+    {
+      "id": "reasoning",
+      "title_en": "Reasoning",
+      "title_kn": "ತರ್ಕಶಕ್ತಿ",
+      "count": 50,
+      "file": "topics/reasoning.json"
+    },
+    {
+      "id": "materials",
+      "title_en": "Building Materials",
+      "title_kn": "ಕಟ್ಟಡ ಸಾಮಗ್ರಿ",
+      "count": 50,
+      "file": "topics/materials.json"
+    },
+    {
+      "id": "survey",
+      "title_en": "Surveying",
+      "title_kn": "ಸಮೀಕ್ಷೆ",
+      "count": 50,
+      "file": "topics/survey.json"
+    },
+    {
+      "id": "structures",
+      "title_en": "Mechanics & Structures",
+      "title_kn": "ರಚನಾ ಎಂಜಿನಿಯರಿಂಗ್",
+      "count": 50,
+      "file": "topics/structures.json"
+    },
+    {
+      "id": "fluids",
+      "title_en": "Fluid Mechanics",
+      "title_kn": "ದ್ರವ ಯಾಂತ್ರಿಕತೆ",
+      "count": 50,
+      "file": "topics/fluids.json"
+    },
+    {
+      "id": "geotech",
+      "title_en": "Geotech & Transport",
+      "title_kn": "ಭೂತಾಂತ್ರಿಕ / ಸಾರಿಗೆ",
+      "count": 50,
+      "file": "topics/geotech.json"
+    },
+    {
+      "id": "env",
+      "title_en": "Environment & Estimation",
+      "title_kn": "ಪರಿಸರ / ಅಂದಾಜು",
+      "count": 50,
+      "file": "topics/env.json"
+    }
+  ]
+}

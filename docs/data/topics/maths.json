@@ -1,0 +1,609 @@
+{
+  "id": "maths",
+  "title_en": "Basic Mathematics",
+  "title_kn": "ಮೂಲಭೂತ ಗಣಿತ",
+  "count": 50,
+  "exam_weight_hint": 20,
+  "questions": [
+    {
+      "id": 1,
+      "en": "What is the place value of 7 in the number 57,832?",
+      "kn": "57,832 ಸಂಖ್ಯೆಯಲ್ಲಿ 7 ರ ಸ್ಥಾನ ಮೌಲ್ಯ ಎಷ್ಟು?",
+      "options": {
+        "a": "7 / 7",
+        "b": "70 / 70",
+        "c": "700 / 700",
+        "d": "7000 / 7000"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 2,
+      "en": "Simplify: 36 ÷ 6 × 3 + 8 − 4",
+      "kn": "ಸರಳೀಕರಿಸಿ: 36 ÷ 6 × 3 + 8 − 4",
+      "options": {
+        "a": "18",
+        "b": "22",
+        "c": "26",
+        "d": "30"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 3,
+      "en": "25% of 480 is equal to:",
+      "kn": "480 ರ 25% ಎಷ್ಟು?",
+      "options": {
+        "a": "100",
+        "b": "120",
+        "c": "140",
+        "d": "160"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 4,
+      "en": "If A is 20% more than B, then B is what percent less than A?",
+      "kn": "A ಯು B ಗಿಂತ 20% ಹೆಚ್ಚಿದ್ದರೆ, B ಯು A ಗಿಂತ ಎಷ್ಟು ಶೇಕಡಾ ಕಡಿಮೆ?",
+      "options": {
+        "a": "16.67%",
+        "b": "20%",
+        "c": "25%",
+        "d": "15%"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "en": "LCM of 12, 18 and 24 is:",
+      "kn": "12, 18 ಮತ್ತು 24 ರ LCM ಎಷ್ಟು?",
+      "options": {
+        "a": "36",
+        "b": "48",
+        "c": "72",
+        "d": "96"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 6,
+      "en": "HCF of 48 and 72 is:",
+      "kn": "48 ಮತ್ತು 72 ರ HCF ಎಷ್ಟು?",
+      "options": {
+        "a": "12",
+        "b": "16",
+        "c": "24",
+        "d": "36"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "en": "The ratio of 2 : 3 is same as:",
+      "kn": "2 : 3 ಅನುಪಾತವು ಯಾವುದಕ್ಕೆ ಸಮಾನ?",
+      "options": {
+        "a": "4 : 5",
+        "b": "6 : 9",
+        "c": "8 : 10",
+        "d": "5 : 7"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 8,
+      "en": "Divide ₹1200 in the ratio 2 : 3. The larger share is:",
+      "kn": "₹1200 ಅನ್ನು 2 : 3 ಅನುಪಾತದಲ್ಲಿ ಹಂಚಿದರೆ ದೊಡ್ಡ ಪಾಲು:",
+      "options": {
+        "a": "₹400",
+        "b": "₹480",
+        "c": "₹600",
+        "d": "₹720"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 9,
+      "en": "Simple interest on ₹5000 at 8% per annum for 3 years is:",
+      "kn": "₹5000 ಮೇಲೆ ವರ್ಷಕ್ಕೆ 8% ದರದಲ್ಲಿ 3 ವರ್ಷದ ಸರಳ ಬಡ್ಡಿ:",
+      "options": {
+        "a": "₹1000",
+        "b": "₹1200",
+        "c": "₹1400",
+        "d": "₹1600"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 10,
+      "en": "Compound interest on ₹2000 at 10% per annum for 2 years (compounded annually) is:",
+      "kn": "₹2000 ಮೇಲೆ ವರ್ಷಕ್ಕೆ 10% ದರದಲ್ಲಿ 2 ವರ್ಷದ ಚಕ್ರಬಡ್ಡಿ (ವಾರ್ಷಿಕ):",
+      "options": {
+        "a": "₹400",
+        "b": "₹420",
+        "c": "₹440",
+        "d": "₹460"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 11,
+      "en": "A shopkeeper buys an article for ₹800 and sells it for ₹1000. His profit percent is:",
+      "kn": "ಅಂಗಡಿಯವರು ₹800 ಗೆ ಖರೀದಿಸಿ ₹1000 ಗೆ ಮಾರಿದರೆ ಲಾಭ ಶೇಕಡಾ:",
+      "options": {
+        "a": "20%",
+        "b": "25%",
+        "c": "30%",
+        "d": "15%"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 12,
+      "en": "If cost price is ₹450 and loss is 10%, selling price is:",
+      "kn": "ಖರೀದಿ ಬೆಲೆ ₹450 ಮತ್ತು ನಷ್ಟ 10% ಆದರೆ ಮಾರಾಟ ಬೆಲೆ:",
+      "options": {
+        "a": "₹360",
+        "b": "₹405",
+        "c": "₹420",
+        "d": "₹495"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 13,
+      "en": "Area of a rectangle with length 12 cm and breadth 8 cm is:",
+      "kn": "ಉದ್ದ 12 cm ಮತ್ತು ಅಗಲ 8 cm ಇರುವ ಆಯತದ ವಿಸ್ತೀರ್ಣ:",
+      "options": {
+        "a": "48 cm²",
+        "b": "64 cm²",
+        "c": "96 cm²",
+        "d": "40 cm²"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 14,
+      "en": "Circumference of a circle with radius 7 cm is (take π = 22/7):",
+      "kn": "ತ್ರಿಜ್ಯ 7 cm ಇರುವ ವೃತ್ತದ ಪರಿಧಿ (π = 22/7):",
+      "options": {
+        "a": "22 cm",
+        "b": "44 cm",
+        "c": "154 cm",
+        "d": "88 cm"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 15,
+      "en": "Volume of a cube of side 5 cm is:",
+      "kn": "ಬದಿ 5 cm ಇರುವ ಘನದ ಘನಫಲ:",
+      "options": {
+        "a": "25 cm³",
+        "b": "100 cm³",
+        "c": "125 cm³",
+        "d": "150 cm³"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 16,
+      "en": "Area of a triangle with base 10 cm and height 6 cm is:",
+      "kn": "ಆಧಾರ 10 cm ಮತ್ತು ಎತ್ತರ 6 cm ಇರುವ ತ್ರಿಭುಜದ ವಿಸ್ತೀರ್ಣ:",
+      "options": {
+        "a": "30 cm²",
+        "b": "60 cm²",
+        "c": "16 cm²",
+        "d": "40 cm²"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 17,
+      "en": "A can do a work in 10 days and B in 15 days. Together they finish in:",
+      "kn": "A ಒಂದು ಕೆಲಸವನ್ನು 10 ದಿನಗಳಲ್ಲಿ ಮತ್ತು B 15 ದಿನಗಳಲ್ಲಿ ಮಾಡುತ್ತಾರೆ. ಇಬ್ಬರೂ ಒಟ್ಟಿಗೆ ಮುಗಿಸುವುದು:",
+      "options": {
+        "a": "5 days / 5 ದಿನ",
+        "b": "6 days / 6 ದಿನ",
+        "c": "7.5 days / 7.5 ದಿನ",
+        "d": "8 days / 8 ದಿನ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 18,
+      "en": "A pipe can fill a tank in 6 hours and another can empty it in 8 hours. If both are opened, the tank fills in:",
+      "kn": "ಒಂದು ಪೈಪ್ ಟ್ಯಾಂಕ್ ಅನ್ನು 6 ಗಂಟೆಯಲ್ಲಿ ತುಂಬಿಸುತ್ತದೆ ಮತ್ತು ಇನ್ನೊಂದು 8 ಗಂಟೆಯಲ್ಲಿ ಖಾಲಿ ಮಾಡುತ್ತದೆ. ಎರಡೂ ತೆರೆದರೆ ಟ್ಯಾಂಕ್ ತುಂಬುವುದು:",
+      "options": {
+        "a": "14 hours / 14 ಗಂಟೆ",
+        "b": "24 hours / 24 ಗಂಟೆ",
+        "c": "48 hours / 48 ಗಂಟೆ",
+        "d": "12 hours / 12 ಗಂಟೆ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 19,
+      "en": "A car travels 240 km in 4 hours. Its average speed is:",
+      "kn": "ಕಾರು 4 ಗಂಟೆಯಲ್ಲಿ 240 km ಪ್ರಯಾಣಿಸಿದರೆ ಸರಾಸರಿ ವೇಗ:",
+      "options": {
+        "a": "40 km/h",
+        "b": "50 km/h",
+        "c": "60 km/h",
+        "d": "80 km/h"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 20,
+      "en": "A train 150 m long crosses a pole in 10 seconds. Its speed is:",
+      "kn": "150 m ಉದ್ದದ ರೈಲು 10 ಸೆಕೆಂಡಿನಲ್ಲಿ ಕಂಬವನ್ನು ದಾಟಿದರೆ ಅದರ ವೇಗ:",
+      "options": {
+        "a": "15 m/s",
+        "b": "54 km/h",
+        "c": "Both a and b / a ಮತ್ತು b ಎರಡೂ",
+        "d": "10 m/s only / ಕೇವಲ 10 m/s"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 21,
+      "en": "If 2x + 5 = 17, then x equals:",
+      "kn": "2x + 5 = 17 ಆದರೆ x ನ ಮೌಲ್ಯ:",
+      "options": {
+        "a": "4",
+        "b": "5",
+        "c": "6",
+        "d": "7"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 22,
+      "en": "Factorize: x² − 9",
+      "kn": "ಅಪವರ್ತನ: x² − 9",
+      "options": {
+        "a": "(x − 3)(x − 3)",
+        "b": "(x + 3)(x + 3)",
+        "c": "(x − 3)(x + 3)",
+        "d": "(x − 9)(x + 1)"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 23,
+      "en": "The sum of angles of a triangle is:",
+      "kn": "ತ್ರಿಭುಜದ ಕೋನಗಳ ಮೊತ್ತ:",
+      "options": {
+        "a": "90°",
+        "b": "180°",
+        "c": "270°",
+        "d": "360°"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 24,
+      "en": "In a right-angled triangle, if two sides are 3 cm and 4 cm, the hypotenuse is:",
+      "kn": "ಲಂಬಕೋನ ತ್ರಿಭುಜದಲ್ಲಿ ಎರಡು ಬದಿಗಳು 3 cm ಮತ್ತು 4 cm ಆದರೆ ಕರ್ಣ:",
+      "options": {
+        "a": "5 cm",
+        "b": "6 cm",
+        "c": "7 cm",
+        "d": "8 cm"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 25,
+      "en": "The value of sin 30° is:",
+      "kn": "sin 30° ನ ಮೌಲ್ಯ:",
+      "options": {
+        "a": "0",
+        "b": "1/2",
+        "c": "1",
+        "d": "√3/2"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 26,
+      "en": "The value of cos 60° is:",
+      "kn": "cos 60° ನ ಮೌಲ್ಯ:",
+      "options": {
+        "a": "0",
+        "b": "1/2",
+        "c": "√3/2",
+        "d": "1"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 27,
+      "en": "tan 45° equals:",
+      "kn": "tan 45° ಸಮಾನವಾಗಿರುವುದು:",
+      "options": {
+        "a": "0",
+        "b": "1",
+        "c": "√3",
+        "d": "1/√3"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 28,
+      "en": "Average of 10, 20, 30, 40 and 50 is:",
+      "kn": "10, 20, 30, 40 ಮತ್ತು 50 ರ ಸರಾಸರಿ:",
+      "options": {
+        "a": "25",
+        "b": "30",
+        "c": "35",
+        "d": "40"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 29,
+      "en": "Average of first 5 natural numbers is:",
+      "kn": "ಮೊದಲ 5 ಪ್ರಾಕೃತಿಕ ಸಂಖ್ಯೆಗಳ ಸರಾಸರಿ:",
+      "options": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 30,
+      "en": "Two pipes A and B can fill a tank in 12 and 18 hours. Together they fill it in:",
+      "kn": "ಎರಡು ಪೈಪ್‌ಗಳು A ಮತ್ತು B ಟ್ಯಾಂಕ್ ಅನ್ನು 12 ಮತ್ತು 18 ಗಂಟೆಯಲ್ಲಿ ತುಂಬಿಸುತ್ತವೆ. ಒಟ್ಟಿಗೆ ತುಂಬುವುದು:",
+      "options": {
+        "a": "6.5 hours / 6.5 ಗಂಟೆ",
+        "b": "7.2 hours / 7.2 ಗಂಟೆ",
+        "c": "8 hours / 8 ಗಂಟೆ",
+        "d": "9 hours / 9 ಗಂಟೆ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 31,
+      "en": "What day of the week was 15 August 1947? (Given: 15 Aug 1947 was Friday)",
+      "kn": "15 ಆಗಸ್ಟ್ 1947 ಯಾವ ವಾರದ ದಿನ? (ನೀಡಿದೆ: 15 ಆಗಸ್ಟ್ 1947 ಶುಕ್ರವಾರ)",
+      "options": {
+        "a": "Thursday / ಗುರುವಾರ",
+        "b": "Friday / ಶುಕ್ರವಾರ",
+        "c": "Saturday / ಶನಿವಾರ",
+        "d": "Sunday / ಭಾನುವಾರ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 32,
+      "en": "A clock shows 3:00. The angle between hour and minute hands is:",
+      "kn": "ಗಡಿಯಾರ 3:00 ತೋರಿಸುತ್ತಿದೆ. ಗಂಟೆ ಮತ್ತು ನಿಮಿಷದ ಮುಳ್ಳುಗಳ ನಡುವಿನ ಕೋನ:",
+      "options": {
+        "a": "60°",
+        "b": "75°",
+        "c": "90°",
+        "d": "120°"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 33,
+      "en": "√144 equals:",
+      "kn": "√144 ಸಮಾನವಾಗಿರುವುದು:",
+      "options": {
+        "a": "10",
+        "b": "11",
+        "c": "12",
+        "d": "14"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 34,
+      "en": "√0.25 equals:",
+      "kn": "√0.25 ಸಮಾನವಾಗಿರುವುದು:",
+      "options": {
+        "a": "0.05",
+        "b": "0.5",
+        "c": "5",
+        "d": "0.025"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 35,
+      "en": "Which of the following is a prime number?",
+      "kn": "ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆ?",
+      "options": {
+        "a": "21",
+        "b": "27",
+        "c": "29",
+        "d": "33"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 36,
+      "en": "0.75 expressed as a fraction in lowest terms is:",
+      "kn": "0.75 ಅನ್ನು ಕನಿಷ್ಠ ರೂಪದ ಭಿನ್ನರಾಶಿಯಾಗಿ ಬರೆದರೆ:",
+      "options": {
+        "a": "3/5",
+        "b": "3/4",
+        "c": "7/8",
+        "d": "2/3"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 37,
+      "en": "If a : b = 4 : 5 and b : c = 2 : 3, then a : c is:",
+      "kn": "a : b = 4 : 5 ಮತ್ತು b : c = 2 : 3 ಆದರೆ a : c:",
+      "options": {
+        "a": "4 : 3",
+        "b": "8 : 15",
+        "c": "2 : 3",
+        "d": "4 : 15"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 38,
+      "en": "A sum becomes ₹2420 in 2 years at 10% compound interest annually. Principal is:",
+      "kn": "ವಾರ್ಷಿಕ 10% ಚಕ್ರಬಡ್ಡಿಯಲ್ಲಿ 2 ವರ್ಷಗಳಲ್ಲಿ ಮೊತ್ತ ₹2420 ಆದರೆ ಮೂಲಧನ:",
+      "options": {
+        "a": "₹1800",
+        "b": "₹2000",
+        "c": "₹2200",
+        "d": "₹2100"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 39,
+      "en": "Marked price of an article is ₹500. After 10% discount, selling price is:",
+      "kn": "ವಸ್ತುವಿನ ಗುರುತು ಬೆಲೆ ₹500. 10% ರಿಯಾಯಿತಿ ನಂತರ ಮಾರಾಟ ಬೆಲೆ:",
+      "options": {
+        "a": "₹400",
+        "b": "₹450",
+        "c": "₹475",
+        "d": "₹490"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 40,
+      "en": "Surface area of a sphere of radius 7 cm is (π = 22/7):",
+      "kn": "ತ್ರಿಜ್ಯ 7 cm ಇರುವ ಗೋಳದ ಮೇಲ್ಮೈ ವಿಸ್ತೀರ್ಣ (π = 22/7):",
+      "options": {
+        "a": "308 cm²",
+        "b": "616 cm²",
+        "c": "154 cm²",
+        "d": "462 cm²"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 41,
+      "en": "A and B together can do a work in 8 days. A alone can do it in 12 days. B alone takes:",
+      "kn": "A ಮತ್ತು B ಒಟ್ಟಿಗೆ ಕೆಲಸವನ್ನು 8 ದಿನಗಳಲ್ಲಿ ಮಾಡುತ್ತಾರೆ. A ಒಬ್ಬರೇ 12 ದಿನಗಳಲ್ಲಿ ಮಾಡುತ್ತಾರೆ. B ಒಬ್ಬರೇ ತೆಗೆದುಕೊಳ್ಳುವುದು:",
+      "options": {
+        "a": "18 days / 18 ದಿನ",
+        "b": "20 days / 20 ದಿನ",
+        "c": "24 days / 24 ದಿನ",
+        "d": "16 days / 16 ದಿನ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 42,
+      "en": "Distance covered in 2.5 hours at 40 km/h is:",
+      "kn": "40 km/h ವೇಗದಲ್ಲಿ 2.5 ಗಂಟೆಯಲ್ಲಿ ಕ್ರಮಿಸಿದ ದೂರ:",
+      "options": {
+        "a": "80 km",
+        "b": "90 km",
+        "c": "100 km",
+        "d": "120 km"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 43,
+      "en": "If x − 3 = 7, then x² equals:",
+      "kn": "x − 3 = 7 ಆದರೆ x² ಸಮಾನವಾಗಿರುವುದು:",
+      "options": {
+        "a": "49",
+        "b": "100",
+        "c": "64",
+        "d": "81"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 44,
+      "en": "Number of sides of a regular hexagon is:",
+      "kn": "ನಿಯಮಿತ ಷಡ್ಭುಜದ ಬದಿಗಳ ಸಂಖ್ಯೆ:",
+      "options": {
+        "a": "5",
+        "b": "6",
+        "c": "7",
+        "d": "8"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 45,
+      "en": "sin²θ + cos²θ equals:",
+      "kn": "sin²θ + cos²θ ಸಮಾನವಾಗಿರುವುದು:",
+      "options": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "tan θ"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 46,
+      "en": "The average of 5 numbers is 20. If one number 25 is excluded, the average of remaining is:",
+      "kn": "5 ಸಂಖ್ಯೆಗಳ ಸರಾಸರಿ 20. ಒಂದು ಸಂಖ್ಯೆ 25 ಅನ್ನು ತೆಗೆದುಹಾಕಿದರೆ ಉಳಿದವುಗಳ ಸರಾಸರಿ:",
+      "options": {
+        "a": "17.5",
+        "b": "18.75",
+        "c": "19",
+        "d": "18"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 47,
+      "en": "A tank is filled by a pipe in 4 hours and emptied by another in 6 hours. Both open together fill in:",
+      "kn": "ಒಂದು ಪೈಪ್ 4 ಗಂಟೆಯಲ್ಲಿ ತುಂಬಿಸುತ್ತದೆ ಮತ್ತು ಇನ್ನೊಂದು 6 ಗಂಟೆಯಲ್ಲಿ ಖಾಲಿ ಮಾಡುತ್ತದೆ. ಎರಡೂ ತೆರೆದರೆ ತುಂಬುವುದು:",
+      "options": {
+        "a": "8 hours / 8 ಗಂಟೆ",
+        "b": "10 hours / 10 ಗಂಟೆ",
+        "c": "12 hours / 12 ಗಂಟೆ",
+        "d": "24 hours / 24 ಗಂಟೆ"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 48,
+      "en": "At what time between 2 and 3 o’clock are the hands of a clock together?",
+      "kn": "2 ಮತ್ತು 3 ಗಂಟೆಯ ನಡುವೆ ಗಡಿಯಾರದ ಮುಳ್ಳುಗಳು ಯಾವಾಗ ಒಟ್ಟಿಗೆ ಬರುತ್ತವೆ?",
+      "options": {
+        "a": "2 : 10 approx / ಸುಮಾರು 2 : 10",
+        "b": "2 : 10 10/11 approx / ಸುಮಾರು 2 : 10 10/11",
+        "c": "2 : 15 approx / ಸುಮಾರು 2 : 15",
+        "d": "2 : 5 approx / ಸುಮಾರು 2 : 5"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 49,
+      "en": "Cube root of 64 is:",
+      "kn": "64 ರ ಘನಮೂಲ:",
+      "options": {
+        "a": "2",
+        "b": "4",
+        "c": "8",
+        "d": "16"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 50,
+      "en": "15% of a number is 45. The number is:",
+      "kn": "ಒಂದು ಸಂಖ್ಯೆಯ 15% ರಷ್ಟು 45. ಆ ಸಂಖ್ಯೆ:",
+      "options": {
+        "a": "250",
+        "b": "300",
+        "c": "350",
+        "d": "400"
+      },
+      "answer": "b"
+    }
+  ]
+}
