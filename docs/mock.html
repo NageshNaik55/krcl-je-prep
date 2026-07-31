@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Full Mock — JE Civil Prep</title>
+  <title>Mock Tests — JE Civil Prep</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -24,62 +24,113 @@
   </header>
 
   <main class="wrap section">
-    <h1 class="section-title">Full Mock Test #1</h1>
-    <p class="section-sub">KRCL JE Civil pattern · 100 Q · 90 minutes · +3 / −1 · English + ಕನ್ನಡ</p>
+    <h1 class="section-title">Mock Tests</h1>
+    <p class="section-sub">21 Full Mocks (100 Q / 90 min) + Top 20 Quick Test · +3 / −1 · English + ಕನ್ನಡ</p>
 
-    <div class="panel" id="intro">
-      <h2>Before you start</h2>
-      <ul>
-        <li>Sit undisturbed for 90 minutes (timer auto-submits).</li>
-        <li>No calculator / notes (as in real CBT).</li>
-        <li>Answers stay hidden until you submit.</li>
-        <li>Use Flag for doubtful questions; navigate from the side grid.</li>
-      </ul>
-      <div class="cta-row">
-        <button class="btn btn-primary" id="start-btn" type="button">Start 90-minute Mock</button>
-        <a class="btn btn-secondary" href="./downloads.html">Prefer PDF mock?</a>
+    <div id="intro">
+      <div class="panel" style="margin-bottom:1.2rem">
+        <h2>Rules</h2>
+        <ul>
+          <li>Each <b>Full Mock</b>: 100 questions · 90 minutes · Sci 10 + Maths 20 + GA/R 20 + Technical 50.</li>
+          <li>Timer auto-submits. Answers hidden until submit. Score = <b>3×Correct − 1×Wrong</b>.</li>
+          <li>No calculator / notes. Use Flag + side grid to navigate.</li>
+        </ul>
+        <p class="muted" id="load-status">Loading mock list…</p>
       </div>
-      <p class="muted" id="load-status">Loading question bank…</p>
+
+      <h2 class="section-title" style="font-size:1.25rem">Full Mocks (#1 – #21)</h2>
+      <p class="section-sub">Same pattern as Full Mock #1 — pick any set</p>
+      <div class="cards" id="full-mock-cards"></div>
+
+      <h2 class="section-title" style="font-size:1.25rem; margin-top:1.8rem">Quick Test</h2>
+      <div class="cards" id="quick-cards" style="margin-bottom:1rem">
+        <article class="card">
+          <span class="tag">18 minutes</span>
+          <h3>Top 20 Quick Test</h3>
+          <p>High-yield mix: Sci 2 + Maths 4 + GA/R 4 + Technical 10.</p>
+          <button class="btn btn-secondary" id="start-top20" type="button" disabled>Start Top 20</button>
+        </article>
+      </div>
+
+      <p><a class="btn btn-ghost" href="./downloads.html">Prefer PDF mock?</a></p>
     </div>
 
     <div id="quiz-root" class="hidden"></div>
   </main>
 
-  <footer class="footer"><div class="wrap">JE Civil Prep · Full Mock</div></footer>
+  <footer class="footer"><div class="wrap">JE Civil Prep · Mock Tests</div></footer>
   <script src="./assets/js/common.js"></script>
   <script src="./assets/js/quiz.js"></script>
   <script>
-    let mockData = null;
+    let top20Data = null;
     const status = document.getElementById("load-status");
     const intro = document.getElementById("intro");
     const root = document.getElementById("quiz-root");
+    const cards = document.getElementById("full-mock-cards");
+    const btnTop20 = document.getElementById("start-top20");
 
-    JE.fetchJSON("data/mock1.json")
-      .then((data) => {
-        mockData = data;
-        status.textContent = `Ready · ${data.questions.length} questions loaded.`;
-      })
-      .catch((err) => {
-        status.textContent = "Could not load mock data. Open via GitHub Pages or a local server (not as raw file).";
-        console.error(err);
-      });
-
-    document.getElementById("start-btn").addEventListener("click", () => {
-      if (!mockData) return alert("Question bank still loading / failed.");
-      if (!confirm("Start the timed mock now? Timer cannot be paused.")) return;
+    function startTest(data, label) {
+      if (!data) return alert("Could not load this test.");
+      const mins = Math.round((data.duration_sec || 0) / 60);
+      if (!confirm(`Start ${label}?\n${data.questions.length} questions · ${mins} minutes\nTimer cannot be paused.`)) return;
       intro.classList.add("hidden");
       root.classList.remove("hidden");
       createQuiz({
         root,
-        questions: mockData.questions,
+        questions: data.questions,
         mode: "mock",
-        durationSec: mockData.duration_sec || 5400,
-        marksPerQ: mockData.marks_per_q || 3,
-        negative: mockData.negative || 1,
-        title: mockData.title_en,
+        durationSec: data.duration_sec,
+        marksPerQ: data.marks_per_q || 3,
+        negative: data.negative || 1,
+        title: data.title_en,
       });
       window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    async function loadAndStart(file, title) {
+      try {
+        status.textContent = `Loading ${title}…`;
+        const data = await JE.fetchJSON("data/" + file.replace(/^data\//, ""));
+        startTest(data, title);
+      } catch (err) {
+        alert("Failed to load: " + title);
+        console.error(err);
+      }
+    }
+
+    Promise.all([
+      JE.fetchJSON("data/mocks-index.json"),
+      JE.fetchJSON("data/top20.json"),
+    ])
+      .then(([index, top20]) => {
+        top20Data = top20;
+        btnTop20.disabled = false;
+        status.textContent = `Ready · ${index.mocks.length} Full Mocks + Top 20`;
+
+        cards.innerHTML = index.mocks
+          .map((m) => {
+            const file = m.file; // mock1.json or mocks/mock-02.json
+            return `<article class="card">
+              <span class="tag">100 Q · 90 min</span>
+              <h3>${m.title_en}</h3>
+              <p>${m.title_kn}<br/><span class="muted">KRCL pattern · +3 / −1</span></p>
+              <button class="btn btn-primary" type="button" data-file="${file}" data-title="${m.title_en}">Start ${m.title_en}</button>
+            </article>`;
+          })
+          .join("");
+      })
+      .catch((err) => {
+        status.textContent = "Could not load mock list. Check GitHub Pages upload of docs/data/.";
+        console.error(err);
+      });
+
+    cards.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-file]");
+      if (!btn) return;
+      loadAndStart(btn.dataset.file, btn.dataset.title);
     });
+
+    btnTop20.addEventListener("click", () => startTest(top20Data, "Top 20 Quick Test"));
   </script>
 </body>
 </html>

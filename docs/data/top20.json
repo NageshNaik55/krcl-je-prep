@@ -1,0 +1,278 @@
+{
+  "id": "top20-1",
+  "title_en": "Top 20 Quick Test",
+  "title_kn": "ಟಾಪ್ 20 ತ್ವರಿತ ಪರೀಕ್ಷೆ",
+  "duration_sec": 1080,
+  "marks_per_q": 3,
+  "negative": 1,
+  "total_questions": 20,
+  "mix": {
+    "science": 2,
+    "maths": 4,
+    "ga_reasoning": 4,
+    "technical": 10
+  },
+  "description_en": "High-yield 20 questions weighted like KRCL JE Civil (half technical).",
+  "questions": [
+    {
+      "id": 1,
+      "en": "What is the SI unit of force?",
+      "kn": "ಬಲದ SI ಘಟಕ ಯಾವುದು?",
+      "options": {
+        "a": "Joule / ಜೌಲ್",
+        "b": "Newton / ನ್ಯೂಟನ್",
+        "c": "Watt / ವಾಟ್",
+        "d": "Pascal / ಪ್ಯಾಸ್ಕಲ್"
+      },
+      "answer": "b",
+      "source_id": 1
+    },
+    {
+      "id": 2,
+      "en": "The pH of pure water at 25°C is approximately:",
+      "kn": "25°C ನಲ್ಲಿ ಶುದ್ಧ ನೀರಿನ pH ಸರಿಸುಮಾರು:",
+      "options": {
+        "a": "0",
+        "b": "5",
+        "c": "7",
+        "d": "14"
+      },
+      "answer": "c",
+      "source_id": 3
+    },
+    {
+      "id": 3,
+      "en": "30% of 250 is equal to:",
+      "kn": "250 ರ 30% ಎಷ್ಟು?",
+      "options": {
+        "a": "50",
+        "b": "75",
+        "c": "80",
+        "d": "90"
+      },
+      "answer": "b",
+      "source_id": 11
+    },
+    {
+      "id": 4,
+      "en": "Convert 54 km/h into m/s:",
+      "kn": "54 km/h ಅನ್ನು m/s ಗೆ ಪರಿವರ್ತಿಸಿ:",
+      "options": {
+        "a": "10 m/s",
+        "b": "15 m/s",
+        "c": "18 m/s",
+        "d": "20 m/s"
+      },
+      "answer": "b",
+      "source_id": 14
+    },
+    {
+      "id": 5,
+      "en": "Cost price ₹80, selling price ₹100. Profit percent is:",
+      "kn": "ಖರೀದಿ ಬೆಲೆ ₹80, ಮಾರಾಟ ಬೆಲೆ ₹100. ಲಾಭ ಶೇಕಡಾ:",
+      "options": {
+        "a": "20%",
+        "b": "22%",
+        "c": "25%",
+        "d": "30%"
+      },
+      "answer": "c",
+      "source_id": 18
+    },
+    {
+      "id": 6,
+      "en": "Value of sin 30° is:",
+      "kn": "sin 30° ನ ಮೌಲ್ಯ:",
+      "options": {
+        "a": "1/2",
+        "b": "1/√2",
+        "c": "√3/2",
+        "d": "1"
+      },
+      "answer": "a",
+      "source_id": 22
+    },
+    {
+      "id": 7,
+      "en": "The Constitution of India came into force on:",
+      "kn": "ಭಾರತದ ಸಂವಿಧಾನ ಜಾರಿಗೆ ಬಂದ ದಿನಾಂಕ:",
+      "options": {
+        "a": "15 August 1947",
+        "b": "26 January 1950",
+        "c": "26 November 1949",
+        "d": "2 October 1947"
+      },
+      "answer": "b",
+      "source_id": 31
+    },
+    {
+      "id": 8,
+      "en": "The currency of Japan is:",
+      "kn": "ಜಪಾನ್‌ನ ಕರೆನ್ಸಿ:",
+      "options": {
+        "a": "Yuan / ಯುವಾನ್",
+        "b": "Yen / ಯೆನ್",
+        "c": "Won / ವಾನ್",
+        "d": "Ringgit / ರಿಂಗ್ಗಿಟ್"
+      },
+      "answer": "b",
+      "source_id": 35
+    },
+    {
+      "id": 9,
+      "en": "A is brother of B. B is sister of C. C is brother of D. How is A related to D?",
+      "kn": "A ಎನ್ನುವವರು B ಯ ಸಹೋದರ. B ಎನ್ನುವವರು C ಯ ಸಹೋದರಿ. C ಎನ್ನುವವರು D ಯ ಸಹೋದರ. A ಯು D ಗೆ ಯಾವ ಸಂಬಂಧ?",
+      "options": {
+        "a": "Brother / ಸಹೋದರ",
+        "b": "Sister / ಸಹೋದರಿ",
+        "c": "Uncle / ಚಿಕ್ಕಪ್ಪ",
+        "d": "Cousin / ಸೋದರಸಂಬಂಧಿ"
+      },
+      "answer": "a",
+      "source_id": 41
+    },
+    {
+      "id": 10,
+      "en": "If in a code, FACE is written as GBDF, then CODE is written as:",
+      "kn": "FACE ಅನ್ನು GBDF ಎಂದು ಬರೆದರೆ, CODE ಅನ್ನು ಹೀಗೆ ಬರೆಯಲಾಗುತ್ತದೆ:",
+      "options": {
+        "a": "DPEF",
+        "b": "DPEE",
+        "c": "DQEF",
+        "d": "CPEF"
+      },
+      "answer": "a",
+      "source_id": 47
+    },
+    {
+      "id": 11,
+      "en": "Standard size of a modular brick (length × width × height) is:",
+      "kn": "ಮಾಡ್ಯುಲರ್ ಇಟ್ಟಿಗೆಯ ಪ್ರಮಾಣಿತ ಗಾತ್ರ:",
+      "options": {
+        "a": "19 × 9 × 9 cm",
+        "b": "20 × 10 × 10 cm",
+        "c": "23 × 11.5 × 7.5 cm",
+        "d": "22 × 11 × 7 cm"
+      },
+      "answer": "a",
+      "source_id": 51
+    },
+    {
+      "id": 12,
+      "en": "First class bricks should not absorb water more than:",
+      "kn": "ಪ್ರಥಮ ದರ್ಜೆ ಇಟ್ಟಿಗೆಗಳು ನೀರನ್ನು ಹೀರುವುದು ಇದಕ್ಕಿಂತ ಹೆಚ್ಚಿರಬಾರದು:",
+      "options": {
+        "a": "10%",
+        "b": "15%",
+        "c": "20%",
+        "d": "25%"
+      },
+      "answer": "c",
+      "source_id": 54
+    },
+    {
+      "id": 13,
+      "en": "Contours that are close together indicate:",
+      "kn": "ಹತ್ತಿರದಲ್ಲಿರುವ ಕಾಂಟೂರ್ ರೇಖೆಗಳು ಸೂಚಿಸುವುದು:",
+      "options": {
+        "a": "Flat ground / ಸಮತಲ ನೆಲ",
+        "b": "Steep slope / ಕಡಿದಾದ ಇಳಿಜಾರು",
+        "c": "Water body only / ನೀರಿನ ಜಲಾಶಯ ಮಾತ್ರ",
+        "d": "Soft soil / ಮೃದು ಮಣ್ಣು"
+      },
+      "answer": "b",
+      "source_id": 60
+    },
+    {
+      "id": 14,
+      "en": "In levelling, the first staff reading taken after setting the instrument is:",
+      "kn": "ಲೆವೆಲಿಂಗ್‌ನಲ್ಲಿ ಉಪಕರಣ ಹೊಂದಿಸಿದ ನಂತರ ತೆಗೆದ ಮೊದಲ ಸ್ಟಾಫ್ ಓದು:",
+      "options": {
+        "a": "Foresight / ಮುಂದಿನ ದೃಷ್ಟಿ",
+        "b": "Intermediate sight / ಮಧ್ಯಂತರ ದೃಷ್ಟಿ",
+        "c": "Backsight / ಹಿಂದಿನ ದೃಷ್ಟಿ",
+        "d": "Change point / ಬದಲಾವಣೆ ಬಿಂದು"
+      },
+      "answer": "c",
+      "source_id": 63
+    },
+    {
+      "id": 15,
+      "en": "Hooke’s law is valid within:",
+      "kn": "ಹೂಕ್ ನಿಯಮ ಮಾನ್ಯವಾಗುವುದು:",
+      "options": {
+        "a": "Plastic range / ಪ್ಲಾಸ್ಟಿಕ್ ವ್ಯಾಪ್ತಿ",
+        "b": "Elastic limit / ಸ್ಥಿತಿಸ್ಥಾಪಕ ಮಿತಿ",
+        "c": "Ultimate stress only / ಅಂತಿಮ ಒತ್ತಡ ಮಾತ್ರ",
+        "d": "Breaking point / ಮುರಿಯುವ ಬಿಂದು"
+      },
+      "answer": "b",
+      "source_id": 70
+    },
+    {
+      "id": 16,
+      "en": "Characteristic compressive strength of M20 concrete is:",
+      "kn": "M20 ಕಾಂಕ್ರೀಟ್‌ನ ಲಕ್ಷಣ ಸಂಕೋಚನ ಸಾಮರ್ಥ್ಯ:",
+      "options": {
+        "a": "15 N/mm²",
+        "b": "20 N/mm²",
+        "c": "25 N/mm²",
+        "d": "30 N/mm²"
+      },
+      "answer": "b",
+      "source_id": 73
+    },
+    {
+      "id": 17,
+      "en": "Bernoulli’s equation is based on conservation of:",
+      "kn": "ಬರ್ನೂಲಿ ಸಮೀಕರಣ ಆಧರಿಸುವುದು:",
+      "options": {
+        "a": "Mass / ದ್ರವ್ಯರಾಶಿ",
+        "b": "Energy / ಶಕ್ತಿ",
+        "c": "Momentum / ಆವೇಗ",
+        "d": "Force / ಬಲ"
+      },
+      "answer": "b",
+      "source_id": 81
+    },
+    {
+      "id": 18,
+      "en": "Head loss due to friction in a long pipe is given by Darcy–Weisbach as hf =",
+      "kn": "ಉದ್ದ ಪೈಪ್‌ನಲ್ಲಿ ಘರ್ಷಣೆಯಿಂದ ಶಿರೋನಷ್ಟ hf =",
+      "options": {
+        "a": "fLV² / (2gD)",
+        "b": "fLV / (2gD)",
+        "c": "V² / (2g)",
+        "d": "fL / D"
+      },
+      "answer": "a",
+      "source_id": 85
+    },
+    {
+      "id": 19,
+      "en": "Safe Bearing Capacity (SBC) of soil is:",
+      "kn": "ಮಣ್ಣಿನ ಸುರಕ್ಷಿತ ಭಾರ ವಹನ ಸಾಮರ್ಥ್ಯ (SBC):",
+      "options": {
+        "a": "Ultimate bearing capacity × FOS",
+        "b": "Ultimate bearing capacity / FOS",
+        "c": "Equal to ultimate bearing capacity",
+        "d": "Always 100 kN/m²"
+      },
+      "answer": "b",
+      "source_id": 90
+    },
+    {
+      "id": 20,
+      "en": "BOD stands for:",
+      "kn": "BOD ಎಂದರೆ:",
+      "options": {
+        "a": "Biological Oxygen Demand / ಜೈವಿಕ ಆಮ್ಲಜನಕ ಬೇಡಿಕೆ",
+        "b": "Biochemical Oxygen Demand / ಜೈವರಾಸಾಯನಿಕ ಆಮ್ಲಜನಕ ಬೇಡಿಕೆ",
+        "c": "Basic Oxygen Demand / ಮೂಲ ಆಮ್ಲಜನಕ ಬೇಡಿಕೆ",
+        "d": "Bacterial Oxygen Density / ಬ್ಯಾಕ್ಟೀರಿಯಾ ಆಮ್ಲಜನಕ ಸಾಂದ್ರತೆ"
+      },
+      "answer": "b",
+      "source_id": 96
+    }
+  ]
+}

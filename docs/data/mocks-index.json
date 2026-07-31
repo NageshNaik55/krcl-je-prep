@@ -1,0 +1,172 @@
+{
+  "mocks": [
+    {
+      "id": 1,
+      "file": "mock1.json",
+      "title_en": "Full Mock #1",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #1",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 2,
+      "file": "mocks/mock-02.json",
+      "title_en": "Full Mock #2",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #2",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 3,
+      "file": "mocks/mock-03.json",
+      "title_en": "Full Mock #3",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #3",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 4,
+      "file": "mocks/mock-04.json",
+      "title_en": "Full Mock #4",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #4",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 5,
+      "file": "mocks/mock-05.json",
+      "title_en": "Full Mock #5",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #5",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 6,
+      "file": "mocks/mock-06.json",
+      "title_en": "Full Mock #6",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #6",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 7,
+      "file": "mocks/mock-07.json",
+      "title_en": "Full Mock #7",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #7",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 8,
+      "file": "mocks/mock-08.json",
+      "title_en": "Full Mock #8",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #8",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 9,
+      "file": "mocks/mock-09.json",
+      "title_en": "Full Mock #9",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #9",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 10,
+      "file": "mocks/mock-10.json",
+      "title_en": "Full Mock #10",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #10",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 11,
+      "file": "mocks/mock-11.json",
+      "title_en": "Full Mock #11",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #11",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 12,
+      "file": "mocks/mock-12.json",
+      "title_en": "Full Mock #12",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #12",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 13,
+      "file": "mocks/mock-13.json",
+      "title_en": "Full Mock #13",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #13",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 14,
+      "file": "mocks/mock-14.json",
+      "title_en": "Full Mock #14",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #14",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 15,
+      "file": "mocks/mock-15.json",
+      "title_en": "Full Mock #15",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #15",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 16,
+      "file": "mocks/mock-16.json",
+      "title_en": "Full Mock #16",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #16",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 17,
+      "file": "mocks/mock-17.json",
+      "title_en": "Full Mock #17",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #17",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 18,
+      "file": "mocks/mock-18.json",
+      "title_en": "Full Mock #18",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #18",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 19,
+      "file": "mocks/mock-19.json",
+      "title_en": "Full Mock #19",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #19",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 20,
+      "file": "mocks/mock-20.json",
+      "title_en": "Full Mock #20",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #20",
+      "duration_sec": 5400,
+      "questions": 100
+    },
+    {
+      "id": 21,
+      "file": "mocks/mock-21.json",
+      "title_en": "Full Mock #21",
+      "title_kn": "ಪೂರ್ಣ ಮಾಕ್ #21",
+      "duration_sec": 5400,
+      "questions": 100
+    }
+  ]
+}
