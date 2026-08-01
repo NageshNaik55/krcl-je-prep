@@ -110,11 +110,19 @@
         cards.innerHTML = index.mocks
           .map((m) => {
             const file = m.file; // mock1.json or mocks/mock-02.json
+            const num = m.id;
+            const pdf =
+              num === 1
+                ? "pdfs/JE_Civil_Full_Mock_1_Exam.pdf"
+                : `pdfs/JE_Civil_Full_Mock_${String(num).padStart(2, "0")}_Exam.pdf`;
             return `<article class="card">
               <span class="tag">100 Q · 90 min</span>
               <h3>${m.title_en}</h3>
               <p>${m.title_kn}<br/><span class="muted">KRCL pattern · +3 / −1</span></p>
-              <button class="btn btn-primary" type="button" data-file="${file}" data-title="${m.title_en}">Start ${m.title_en}</button>
+              <div style="display:flex; flex-wrap:wrap; gap:0.45rem">
+                <button class="btn btn-primary" type="button" data-file="${file}" data-title="${m.title_en}">Start online</button>
+                <a class="btn btn-secondary" href="./${pdf}" download>PDF</a>
+              </div>
             </article>`;
           })
           .join("");

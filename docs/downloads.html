@@ -25,9 +25,14 @@
 
   <main class="wrap section">
     <h1 class="section-title">View & Download PDFs</h1>
-    <p class="section-sub">Open in browser or download for offline / print revision</p>
+    <p class="section-sub">Study packs + Full Mock #1–#21 print PDFs (answers highlighted)</p>
 
-    <div class="pdf-grid" id="pdf-cards"></div>
+    <h2 class="section-title" style="font-size:1.25rem">Study packs</h2>
+    <div class="pdf-grid" id="pack-cards"></div>
+
+    <h2 class="section-title" style="font-size:1.25rem; margin-top:1.6rem">Full Mock PDFs (#1 – #21)</h2>
+    <p class="section-sub">Each: 100 Q · 90 min pattern · bilingual · correct answers highlighted in green</p>
+    <div class="pdf-grid" id="mock-cards"></div>
 
     <div class="panel" style="margin-top:1.2rem">
       <h2>Preview</h2>
@@ -39,44 +44,61 @@
   <footer class="footer"><div class="wrap">JE Civil Prep · PDFs</div></footer>
   <script src="./assets/js/common.js"></script>
   <script>
-    const pdfs = [
+    const packs = [
       {
         file: "JE_Civil_Complete_Print_Ready.pdf",
         title: "Complete Print Guide",
-        desc: "Notes + bilingual MCQs + full mock (answers highlighted).",
+        desc: "Notes + bilingual MCQs + materials (answers highlighted).",
       },
       {
         file: "JE_Civil_MCQ_Only_Exam_Practice.pdf",
         title: "MCQ Practice Book",
         desc: "500 topic-wise MCQs with highlighted answers.",
       },
+    ];
+
+    const mocks = [
       {
         file: "JE_Civil_Full_Mock_1_Exam.pdf",
         title: "Full Mock #1 PDF",
-        desc: "100-question KRCL pattern mock for print practice.",
+        desc: "100-question KRCL pattern mock.",
       },
     ];
+    for (let n = 2; n <= 21; n++) {
+      const nn = String(n).padStart(2, "0");
+      mocks.push({
+        file: `JE_Civil_Full_Mock_${nn}_Exam.pdf`,
+        title: `Full Mock #${n} PDF`,
+        desc: "100 Q · bilingual · answers highlighted.",
+      });
+    }
 
-    const cards = document.getElementById("pdf-cards");
+    function renderCards(el, list) {
+      el.innerHTML = list
+        .map((p) => {
+          const href = `./pdfs/${p.file}`;
+          return `<article class="card pdf-card">
+            <h3>${p.title}</h3>
+            <p>${p.desc}</p>
+            <div class="actions">
+              <button class="btn btn-primary" type="button" data-view="${href}" data-title="${p.title}">View</button>
+              <a class="btn btn-secondary" href="${href}" download>Download</a>
+              <a class="btn btn-ghost" href="${href}" target="_blank" rel="noopener">Open tab</a>
+            </div>
+          </article>`;
+        })
+        .join("");
+    }
+
+    const packCards = document.getElementById("pack-cards");
+    const mockCards = document.getElementById("mock-cards");
     const frame = document.getElementById("pdf-frame");
     const label = document.getElementById("preview-label");
 
-    cards.innerHTML = pdfs
-      .map((p) => {
-        const href = `./pdfs/${p.file}`;
-        return `<article class="card pdf-card">
-          <h3>${p.title}</h3>
-          <p>${p.desc}</p>
-          <div class="actions">
-            <button class="btn btn-primary" type="button" data-view="${href}" data-title="${p.title}">View</button>
-            <a class="btn btn-secondary" href="${href}" download>Download</a>
-            <a class="btn btn-ghost" href="${href}" target="_blank" rel="noopener">Open tab</a>
-          </div>
-        </article>`;
-      })
-      .join("");
+    renderCards(packCards, packs);
+    renderCards(mockCards, mocks);
 
-    cards.addEventListener("click", (e) => {
+    document.body.addEventListener("click", (e) => {
       const btn = e.target.closest("button[data-view]");
       if (!btn) return;
       frame.src = btn.dataset.view;
