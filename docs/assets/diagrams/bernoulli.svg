@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
   <rect width="420" height="150" fill="#f7fbf9"/>
-  <text x="12" y="22" font-size="14" fill="#0b3d2e" font-weight="700" font-family="Arial">Continuity & Bernoulli</text>
+  <text x="12" y="22" font-size="14" fill="#0b3d2e" font-weight="700" font-family="Arial">Continuity &amp; Bernoulli</text>
   <path d="M30,50 h80 l40,30 h100 l40,-30 h80" fill="none" stroke="#0d6b63" stroke-width="8"/>
   <text x="40" y="100" font-size="11">A1,V1</text>
   <text x="180" y="115" font-size="11">A↓ V↑</text>

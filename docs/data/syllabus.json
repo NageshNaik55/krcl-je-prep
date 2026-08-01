@@ -1,0 +1,112 @@
+{
+  "topics": [
+    {
+      "id": "ready",
+      "file": "00B_Exam_Readiness_Truth.md",
+      "title": "00 · Exam Readiness",
+      "titleKn": "ಪರೀಕ್ಷಾ ಸಿದ್ಧತೆ",
+      "briefEn": "One casual read is NOT enough. Master notes 3× + formulas + MCQs + mocks = exam ready.",
+      "briefKn": "ಒಂದೇ ಬಾರಿ ಓದು ಸಾಲದು. 3 ಬಾರಿ ನೋಟ್ + ಸೂತ್ರ + MCQ + ಮಾಕ್ = ಪರೀಕ್ಷೆಗೆ ಸಿದ್ಧ.",
+      "diagrams": []
+    },
+    {
+      "id": "science",
+      "file": "01_General_Science.md",
+      "title": "01 · General Science",
+      "titleKn": "ಸಾಮಾನ್ಯ ವಿಜ್ಞಾನ",
+      "briefEn": "Class 10 CBSE basics — units, laws, and everyday meaning.",
+      "briefKn": "10ನೇ ತರಗತಿ ಮೂಲಭೂತ — ಘಟಕ, ನಿಯಮ ಮತ್ತು ದೈನಂದಿನ ಅರ್ಥ.",
+      "diagrams": ["motion_force.svg", "electricity.svg", "lens_sound.svg"]
+    },
+    {
+      "id": "maths",
+      "file": "02_Basic_Mathematics.md",
+      "title": "02 · Basic Mathematics",
+      "titleKn": "ಮೂಲಭೂತ ಗಣಿತ",
+      "briefEn": "Formulas for speed: convert units first, then apply the right formula.",
+      "briefKn": "ವೇಗಕ್ಕಾಗಿ ಸೂತ್ರಗಳು: ಮೊದಲು ಘಟಕ ಪರಿವರ್ತನೆ, ನಂತರ ಸರಿಯಾದ ಸೂತ್ರ.",
+      "diagrams": ["mensuration.svg"]
+    },
+    {
+      "id": "ga",
+      "file": "03_GA_and_Reasoning.md",
+      "title": "03 · GA & Reasoning",
+      "titleKn": "ಸಾಮಾನ್ಯ ಜ್ಞಾನ / ತರ್ಕ",
+      "briefEn": "GA = facts to remember. Reasoning = find the hidden rule; always sketch.",
+      "briefKn": "ಸಾಮಾನ್ಯ ಜ್ಞಾನ = ನೆನಪು. ತರ್ಕ = ನಿಯಮ ಹುಡುಕಿ; ಯಾವಾಗಲೂ ಸ್ಕೆಚ್ ಹಾಕಿ.",
+      "diagrams": ["directions_venn.svg"]
+    },
+    {
+      "id": "materials",
+      "file": "04_Building_Materials.md",
+      "title": "04 · Building Materials",
+      "titleKn": "ಕಟ್ಟಡ ಸಾಮಗ್ರಿಗಳು",
+      "briefEn": "Material quality decides strength and durability of the structure.",
+      "briefKn": "ಸಾಮಗ್ರಿ ಗುಣಮಟ್ಟವೇ ರಚನೆಯ ಬಲ ಮತ್ತು ದೀರ್ಘಕಾಲಿಕತೆಯನ್ನು ನಿರ್ಧರಿಸುತ್ತದೆ.",
+      "diagrams": ["brick_concrete.svg"]
+    },
+    {
+      "id": "survey",
+      "file": "05_Surveying_Levelling.md",
+      "title": "05 · Surveying & Levelling",
+      "titleKn": "ಸಮೀಕ್ಷೆ ಮತ್ತು ಮಟ್ಟ",
+      "briefEn": "Surveying finds relative positions; levelling finds height differences.",
+      "briefKn": "ಸಮೀಕ್ಷೆ ಸಾಪೇಕ್ಷ ಸ್ಥಾನ; ಮಟ್ಟ ನಿರ್ಧಾರ ಎತ್ತರ ವ್ಯತ್ಯಾಸ ಕಂಡುಹಿಡಿಯುತ್ತದೆ.",
+      "diagrams": ["levelling_contour.svg"]
+    },
+    {
+      "id": "structures",
+      "file": "06_Mechanics_Structural.md",
+      "title": "06 · Mechanics & Structures",
+      "titleKn": "ರಚನಾ ಎಂಜಿನಿಯರಿಂಗ್",
+      "briefEn": "Loads create stress; beams need SF/BM checks; RCC steel takes tension.",
+      "briefKn": "ಭಾರದಿಂದ ಒತ್ತಡ; ಕಿರಣಕ್ಕೆ SF/BM; ಆರ್‌ಸಿಸಿಯಲ್ಲಿ ಉಕ್ಕು ಎಳೆತ ಹೊರುತ್ತದೆ.",
+      "diagrams": ["beam_sfd_bmd.svg"]
+    },
+    {
+      "id": "fluids",
+      "file": "07_Fluid_Hydraulics.md",
+      "title": "07 · Fluids & Hydraulics",
+      "titleKn": "ದ್ರವ ಯಾಂತ್ರಿಕತೆ",
+      "briefEn": "Pressure rises with depth; continuity and Bernoulli govern pipe flow.",
+      "briefKn": "ಆಳದೊಂದಿಗೆ ಒತ್ತಡ ಏರುತ್ತದೆ; ನಿರಂತರತೆ ಮತ್ತು ಬರ್ನೂಲಿ ಪೈಪ್ ಹರಿವನ್ನು ನಿರ್ವಹಿಸುತ್ತವೆ.",
+      "diagrams": ["bernoulli.svg"]
+    },
+    {
+      "id": "geotech",
+      "file": "08_Geotech_Transportation.md",
+      "title": "08 · Geotech & Transport",
+      "titleKn": "ಭೂತಾಂತ್ರಿಕ / ಸಾರಿಗೆ",
+      "briefEn": "Soil properties decide foundation; highways/railways need safe geometry.",
+      "briefKn": "ಮಣ್ಣು ಗುಣ ಅಡಿಪಾಯ ನಿರ್ಧರಿಸುತ್ತದೆ; ಹೆದ್ದಾರಿ/ರೈಲಿಗೆ ಸುರಕ್ಷಿತ ಜ್ಯಾಮಿತಿ ಬೇಕು.",
+      "diagrams": ["soil_pavement.svg"]
+    },
+    {
+      "id": "env",
+      "file": "09_Environmental_Estimation.md",
+      "title": "09 · Environment & Estimation",
+      "titleKn": "ಪರಿಸರ / ಅಂದಾಜು",
+      "briefEn": "Clean water sequence matters; estimates convert drawings into cost.",
+      "briefKn": "ನೀರು ಶುದ್ಧೀಕರಣ ಕ್ರಮ ಮುಖ್ಯ; ಅಂದಾಜು ಚಿತ್ರಗಳನ್ನು ವೆಚ್ಚವಾಗಿ ಮಾಡುತ್ತದೆ.",
+      "diagrams": ["water_treatment.svg"]
+    },
+    {
+      "id": "boost",
+      "file": "10_High_Yield_Boost.md",
+      "title": "10 · High-Yield Boost",
+      "titleKn": "ಹೆಚ್ಚು-ಅಂಕ ಹೆಚ್ಚುವರಿ",
+      "briefEn": "Fills diploma gaps: mechanics, construction, CAD, pumps, bridges, contracts.",
+      "briefKn": "ಡಿಪ್ಲೊಮಾ ಕೊರತೆ ತುಂಬುತ್ತದೆ: ಮೆಕ್ಯಾನಿಕ್ಸ್, ನಿರ್ಮಾಣ, ಕ್ಯಾಡ್, ಪಂಪ್, ಸೇತುವೆ, ಒಪ್ಪಂದ.",
+      "diagrams": []
+    },
+    {
+      "id": "formulas",
+      "file": "11_Formula_Sheet.md",
+      "title": "11 · Formula Sheet",
+      "titleKn": "ಸೂತ್ರ ಪಟ್ಟಿ",
+      "briefEn": "Last-week revision sheet — memorize and practice daily.",
+      "briefKn": "ಕೊನೆಯ ವಾರದ ಪುನರಾವರ್ತನೆ — ನೆನಪಿಟ್ಟು ಪ್ರತಿದಿನ ಅಭ್ಯಾಸ ಮಾಡಿ.",
+      "diagrams": []
+    }
+  ]
+}
