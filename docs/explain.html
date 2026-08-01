@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deep Explanations — JE Civil Prep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/site.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    .explain-layout { display: grid; grid-template-columns: 260px 1fr; gap: 1rem; align-items: start; }
+    .toc-panel { position: sticky; top: 76px; max-height: calc(100vh - 90px); overflow: auto; }
+    .toc-panel button {
+      display: block; width: 100%; text-align: left; border: 0; background: transparent;
+      padding: 0.55rem 0.45rem; border-bottom: 1px solid var(--line); cursor: pointer;
+      font: inherit; color: var(--ink); border-radius: 8px;
+    }
+    .toc-panel button:hover, .toc-panel button.active {
+      background: rgba(13,107,99,0.1); color: var(--teal-dark); font-weight: 700;
+    }
+    .explain-body { max-height: none; }
+    .explain-body .topic-block {
+      scroll-margin-top: 80px;
+      margin-bottom: 1.2rem;
+      padding: 1rem 1.1rem;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: var(--shadow);
+    }
+    .explain-body h1 { font-family: var(--font-display); font-size: 1.35rem; color: var(--teal-dark); }
+    .explain-body h2 { font-family: var(--font-display); font-size: 1.15rem; margin-top: 1rem; }
+    .explain-body h3 { font-size: 1.02rem; margin-top: 0.8rem; }
+    .teach-box {
+      margin: 0.8rem 0; padding: 0.85rem 1rem; border-radius: 12px;
+      background: rgba(13,107,99,0.07); border-left: 4px solid var(--teal);
+    }
+    .lock-box {
+      margin: 0.8rem 0; padding: 0.85rem 1rem; border-radius: 12px;
+      background: #fff3cd; border-left: 4px solid var(--accent);
+    }
+    .trap-box {
+      margin: 0.8rem 0; padding: 0.85rem 1rem; border-radius: 12px;
+      background: #fdecea; border-left: 4px solid var(--bad);
+    }
+    @media (max-width: 860px) {
+      .explain-layout { grid-template-columns: 1fr; }
+      .toc-panel { position: static; max-height: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="./index.html"><span class="brand-mark">JE</span> Civil Prep</a>
+      <nav class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./practice.html">Practice MCQs</a>
+        <a href="./mock.html">Full Mock</a>
+        <a href="./complete-syllabus.html">Syllabus</a>
+        <a href="./explain.html" class="active">Deep Explain</a>
+        <a href="./notes.html">Notes</a>
+        <a href="./downloads.html">PDFs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap section">
+    <h1 class="section-title">Final Deep Explanations</h1>
+    <p class="section-sub">
+      Topic-wise teacher-style notes · English + ಕನ್ನಡ · real understanding + exam traps ·
+      <a href="./pdfs/JE_Civil_Final_Deep_Explanations.pdf" download>Download deep PDF</a>
+    </p>
+
+    <div class="panel" style="margin-bottom:1rem; border-left:4px solid var(--teal)">
+      <p style="margin:0 0 .5rem">
+        <b>Complete syllabus with brief explanation + diagrams</b> (all topics you listed: Science → Estimation + formulas)
+      </p>
+      <p style="margin:0" class="muted">ಸಂಪೂರ್ಣ ಪಠ್ಯಕ್ರಮ — ಸಂಕ್ಷಿಪ್ತ ವಿವರಣೆ + ಚಿತ್ರಗಳು</p>
+      <p style="margin:.7rem 0 0">
+        <a class="btn btn-primary" href="./complete-syllabus.html">Open complete syllabus</a>
+        <a class="btn btn-secondary" href="./pdfs/JE_Civil_Complete_Syllabus_Brief_Explain.pdf" download>Download syllabus PDF</a>
+      </p>
+    </div>
+
+    <div class="panel" style="margin-bottom:1rem">
+      <p style="margin:0">
+        Read like a class: <b>concept → deep why → must lock → traps</b>.
+        Then open <a href="./practice.html">Practice MCQs</a> for that topic.
+      </p>
+    </div>
+
+    <div class="explain-layout">
+      <aside class="panel toc-panel" id="toc"><p class="muted">Loading topics…</p></aside>
+      <article class="explain-body" id="content"><p class="muted">Loading deep explanations…</p></article>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="wrap">JE Civil Prep · Deep Explanations</div></footer>
+  <script src="./assets/js/common.js"></script>
+  <script>
+    const toc = document.getElementById("toc");
+    const content = document.getElementById("content");
+
+    const topicMeta = [
+      { id: "t1", label: "1. General Science" },
+      { id: "t2", label: "2. Basic Mathematics" },
+      { id: "t3", label: "3. General Awareness" },
+      { id: "t4", label: "4. Reasoning" },
+      { id: "t5", label: "5. Building Materials" },
+      { id: "t6", label: "6. Surveying" },
+      { id: "t7", label: "7. Mechanics & Structural" },
+      { id: "t8", label: "8. Fluids & Hydraulics" },
+      { id: "t9", label: "9. Geotech & Transport" },
+      { id: "t10", label: "10. Env & Estimation" },
+      { id: "t11", label: "Exam strategy" },
+    ];
+
+    function enhanceHtml(rawHtml) {
+      // Wrap special headings into visual boxes after marked parse — simple class injection via string
+      return rawHtml
+        .replace(/<h2>([^<]*Must lock[^<]*)<\/h2>/gi, '<div class="lock-box"><h2>$1</h2>')
+        .replace(/<h2>([^<]*Exam traps[^<]*)<\/h2>/gi, '<div class="trap-box"><h2>$1</h2>')
+        .replace(/<h2>([^<]*Deep explanation[^<]*)<\/h2>/gi, '<div class="teach-box"><h2>$1</h2>');
+      // Note: unclosed divs — better post-process by topic blocks instead
+    }
+
+    function splitTopics(md) {
+      // Split on top-level "# N." topic headings (keep first intro separately)
+      const parts = md.split(/\n(?=# \d+\. )/);
+      const intro = parts[0].startsWith("# Final") || parts[0].startsWith("# ") ? parts[0] : "";
+      const topics = parts[0].startsWith("# Final") || /^# \d+\./.test(parts[0]) === false
+        ? parts.slice(1)
+        : parts;
+      // If first part is intro only
+      let topicParts = parts.filter((p) => /^# \d+\./.test(p.trim()) || /^# Cross-topic/.test(p.trim()));
+      if (!topicParts.length) topicParts = parts.slice(1);
+      return { intro: parts[0], topics: topicParts };
+    }
+
+    fetch("./notes/15_Final_Deep_Explanations.md")
+      .then((r) => {
+        if (!r.ok) throw new Error(r.statusText);
+        return r.text();
+      })
+      .then((md) => {
+        const { intro, topics } = splitTopics(md);
+        toc.innerHTML = topicMeta
+          .map((t, i) => `<button type="button" data-id="topic-${i}">${t.label}</button>`)
+          .join("");
+
+        let html = "";
+        if (intro) {
+          html += `<div class="topic-block" id="intro-block">${marked.parse(intro)}</div>`;
+        }
+        topics.forEach((block, i) => {
+          let body = marked.parse(block);
+          // Close visual boxes heuristically: convert Must lock / traps / deep sections
+          body = body
+            .replace(
+              /<h2>([^<]*(?:Must lock|ಅನಿವಾರ್ಯ)[^<]*)<\/h2>([\s\S]*?)(?=<h2>|<h1>|$)/gi,
+              '<div class="lock-box"><h2>$1</h2>$2</div>'
+            )
+            .replace(
+              /<h2>([^<]*(?:Exam traps|ತಪ್ಪು)[^<]*)<\/h2>([\s\S]*?)(?=<h2>|<h1>|$)/gi,
+              '<div class="trap-box"><h2>$1</h2>$2</div>'
+            )
+            .replace(
+              /<h2>([^<]*Deep explanation[^<]*)<\/h2>([\s\S]*?)(?=<h2>|<h1>|$)/gi,
+              '<div class="teach-box"><h2>$1</h2>$2</div>'
+            );
+          html += `<div class="topic-block" id="topic-${i}">${body}</div>`;
+        });
+        content.innerHTML = html;
+
+        toc.addEventListener("click", (e) => {
+          const btn = e.target.closest("button[data-id]");
+          if (!btn) return;
+          toc.querySelectorAll("button").forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          const el = document.getElementById(btn.dataset.id);
+          if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+      })
+      .catch((err) => {
+        content.innerHTML = `<div class="alert">Could not load deep explanations. ${err.message}</div>`;
+        toc.innerHTML = "";
+        console.error(err);
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160">
+  <rect width="420" height="160" fill="#f7fbf9"/>
+  <text x="12" y="22" font-size="14" fill="#0b3d2e" font-weight="700" font-family="Arial">Levelling · Contours</text>
+  <text x="20" y="55" font-size="12">HI = RL + BS</text>
+  <text x="20" y="75" font-size="12">RL = HI − FS</text>
+  <text x="20" y="100" font-size="11" fill="#555">BB = FB ± 180°</text>
+  <ellipse cx="300" cy="95" rx="70" ry="40" fill="none" stroke="#0d6b63" stroke-width="2"/>
+  <ellipse cx="300" cy="95" rx="45" ry="25" fill="none" stroke="#0d6b63" stroke-width="2"/>
+  <ellipse cx="300" cy="95" rx="20" ry="12" fill="none" stroke="#c45c26" stroke-width="2"/>
+  <text x="250" y="150" font-size="11" fill="#555">Close contours = steep</text>
+</svg>

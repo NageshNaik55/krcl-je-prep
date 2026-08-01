@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
+  <rect width="420" height="150" fill="#f7fbf9"/>
+  <text x="12" y="22" font-size="14" fill="#0b3d2e" font-weight="700" font-family="Arial">Light & Sound</text>
+  <ellipse cx="90" cy="85" rx="18" ry="40" fill="none" stroke="#0d6b63" stroke-width="3"/>
+  <line x1="20" y1="70" x2="160" y2="70" stroke="#333"/><line x1="20" y1="100" x2="160" y2="100" stroke="#333"/>
+  <text x="50" y="140" font-size="11" fill="#555">Convex → converge</text>
+  <path d="M250,50 Q270,85 250,120" fill="none" stroke="#0d6b63" stroke-width="3"/>
+  <text x="230" y="140" font-size="11" fill="#555">Concave → diverge</text>
+  <text x="330" y="80" font-size="11" fill="#c45c26">Sound needs</text>
+  <text x="330" y="98" font-size="11" fill="#c45c26">a medium</text>
+</svg>

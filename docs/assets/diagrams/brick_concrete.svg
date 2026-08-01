@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
+  <rect width="420" height="150" fill="#f7fbf9"/>
+  <text x="12" y="22" font-size="14" fill="#0b3d2e" font-weight="700" font-family="Arial">Brick · w/c · DPC</text>
+  <rect x="30" y="50" width="90" height="45" fill="#c45c26" rx="4"/>
+  <text x="48" y="78" fill="#fff" font-size="12">Brick</text>
+  <text x="30" y="115" font-size="11" fill="#555">≥10.5 N/mm²</text>
+  <text x="160" y="70" font-size="13" fill="#0d6b63">↓ w/c → ↑ strength</text>
+  <text x="160" y="95" font-size="12" fill="#333">Slump = workability</text>
+  <rect x="160" y="110" width="200" height="14" fill="#888"/>
+  <text x="160" y="140" font-size="11" fill="#555">DPC at plinth stops rising damp</text>
+</svg>

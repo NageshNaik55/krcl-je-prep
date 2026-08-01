@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
+  <rect width="420" height="150" fill="#f7fbf9"/>
+  <text x="12" y="22" font-size="14" fill="#0b3d2e" font-weight="700" font-family="Arial">Soil · Pavement · BG</text>
+  <text x="20" y="55" font-size="12">Se = wG · PI = LL−PL</text>
+  <text x="20" y="78" font-size="12">OMC → MDD</text>
+  <rect x="220" y="40" width="160" height="18" fill="#444"/><text x="250" y="53" fill="#fff" font-size="10">Surface</text>
+  <rect x="220" y="58" width="160" height="18" fill="#777"/><text x="255" y="71" fill="#fff" font-size="10">Base</text>
+  <rect x="220" y="76" width="160" height="18" fill="#a67c52"/><text x="250" y="89" fill="#fff" font-size="10">Subgrade</text>
+  <text x="20" y="120" font-size="12">Flexible = bitumen · Rigid = CC</text>
+  <text x="20" y="140" font-size="12" fill="#c45c26">BG = 1.676 m</text>
+</svg>

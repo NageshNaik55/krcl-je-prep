@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 170" width="420" height="170">
+  <rect width="420" height="170" fill="#f7fbf9"/>
+  <text x="12" y="22" font-size="14" fill="#0b3d2e" font-weight="700" font-family="Arial">SS beam + central load W</text>
+  <line x1="60" y1="70" x2="360" y2="70" stroke="#333" stroke-width="4"/>
+  <polygon points="60,70 50,90 70,90" fill="#0d6b63"/><polygon points="360,70 350,90 370,90" fill="#0d6b63"/>
+  <line x1="210" y1="30" x2="210" y2="65" stroke="#c45c26" stroke-width="3"/>
+  <text x="200" y="25" font-size="12" fill="#c45c26">W</text>
+  <text x="20" y="120" font-size="12">Mmax = WL/4</text>
+  <text x="20" y="140" font-size="12">SFmax = W/2</text>
+  <text x="200" y="140" font-size="12" fill="#555">UDL: Mmax = wL²/8</text>
+</svg>
